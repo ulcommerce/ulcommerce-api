@@ -24,7 +24,7 @@ you're all good to go.
 
 The main JS and CSS files are also available in [npm] and [bower].
 
-[Default theme template >][template]
+Default theme template>
 
 [Blank template >][blank]
 
