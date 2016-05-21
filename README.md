@@ -1,40 +1,19 @@
-#ulcommerce 
+Flatdoc
+=======
 
-####Documentación API PLUS V 0.1
---------------
+Flatdoc is a small JavaScript file that fetches Markdown files and renders them
+as full pages. Essentially, it's the easiest
+way to make open source documentation from *Readme* files.
 
-## [I. Introducción](#id-introduccion)
-1. [Funcionamiento de la API](#id-funcionamientoAPI)
-2. [Autenticación](#id-autenticacion)
-3. [Códigos de Estado](#id-codigosEstado)
+ * No server-side components
+ * No build process needed
+ * Deployable via GitHub Pages
+ * Can fetch GitHub Readme files
+ * Gorgeous default theme (and it's responsive)
+ * Just create an HTML file and deploy!
 
-## [II. Métodos Generales](#id-metodos)
-1. [Gestión de Marcas](#id-marcas)
-    * [Listar Marcas](#id-lisMar)
-    * [Crear Marcas](#id-creMar)
-    * [Actualizar Marcas](#id-actMar)
-    * [Eliminar Marcas](#id-eliMar)
-2. [Gestión de Productos](#id-productos)
-    * [Listar Productos](#id-lisPro)
-    * [Crear Productos](#id-crePro)
-    * [Actualizar Productos](#id-actPro)
-    * [Eliminar Productos](#id-eliPro)
-3. [Gestión de Categorías](#id-categorias)
-    * [Listar Categorias](#id-lisCat)
-    * [Crear Categorías](#id-creCat)
-    * [Actualizar Categorías](#id-actCat)
-    * [Eliminar Categorías](#id-eliCat)
+*Current version: [v0.9.0][dist]*
 
-## [III. Anexos](#id-anexos)
-1. [Diccionarios de Datos](#id-diccionarioDatos)
-    * [Diccionario de Datos de Crear Marcas](#id-datosCreMar)
-    * [Diccionario de Datos de Actualizar Marcas](#id-datosActMar)
-    * [Diccionario de Datos de Crear Productos](#id-datosCrePro)
-    * [Diccionario de Datos de Actualizar Productos](#id-datosActPro)
-    * [Diccionario de Datos de Crear Categorías](#id-datosCreCat)
-    * [Diccionario de Datos de Actualizar Categorías](#id-datosActCat)
-2. [Diccionarios de Errores](#id-diccionarioErrores)
-3. [Glosario](#id-glosario)
 
 <a name="id-introduccion"></a>
 # I. Introducción
