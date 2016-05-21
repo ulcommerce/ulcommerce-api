@@ -1,4 +1,4 @@
-Flatdoc
+ulcommerce API v0.1
 =======
 
 Flatdoc is a small JavaScript file that fetches Markdown files and renders them
@@ -11,8 +11,6 @@ way to make open source documentation from *Readme* files.
  * Can fetch GitHub Readme files
  * Gorgeous default theme (and it's responsive)
  * Just create an HTML file and deploy!
-
-*Current version: [v0.9.0][dist]*
 
 
 <a name="id-introduccion"></a>
