@@ -12,6 +12,24 @@ way to make open source documentation from *Readme* files.
  * Gorgeous default theme (and it's responsive)
  * Just create an HTML file and deploy!
 
+Getting started
+---------------
+
+Create a file based on the template, which has a bare DOM, link to the
+scripts, and a link to a theme. It will look something like this (not exact).
+For GitHub projects, simply place this file in your [GitHub pages] branch and
+you're all good to go.
+
+*In short: just download this file and upload it somewhere.*
+
+The main JS and CSS files are also available in [npm] and [bower].
+
+[Default theme template >][template]
+
+[Blank template >][blank]
+
+[bower]: http://bower.io/search/?q=flatdoc
+[npm]: https://www.npmjs.org/package/flatdoc
 
 <a name="id-introduccion"></a>
 # I. Introducción
