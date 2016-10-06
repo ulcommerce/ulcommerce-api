@@ -40,20 +40,77 @@ La API de ulcommerce plus es una API REST que utiliza los métodos HTTP para lis
 
 La siguiente tabla muestra la estructura general de la API:
 
-| Dependencia | Método | Tipo de Petición | Funcionalidad |
-| ------ | ------ | ----- | ----- | ----- |
-| Marcas | list-make | post | Listar un registro en particular o todos los existentes. |
-| Marcas | create-make | post | Crear uno o varios registros. |
-| Marcas | update-make | post | Actualizar uno o varios registros. |
-| Marcas | delete-make | delete | Eliminar un registro. |
-| Productos | list-product | post | Listar un registro en particular o todos los existentes. |
-| Productos | create-product | post | Crear uno o varios registros. |
-| Productos | update-product | post | Actualizar uno o varios registros. |
-| Productos | delete-product | delete | Eliminar un registro. |
-| Categorías  | list-category | post | Listar un registro en particular o todos los existentes. |
-| Categorías  | create-category | post | Crear uno o varios registros. |
-| Categorías  | update-category | post | Actualizar uno o varios registros. |
-| Categorías  | delete-category | delete | Eliminar un registro. |
+<table>
+  <tr>
+    <th>Dependencia</th>
+    <th>M&eacute;todo</th>
+    <th>Tipo de Petici&oacute;n</th>
+    <th>Funcionalidad</th>
+  </tr>
+  <tr>
+    <td rowspan="7">Marcas</td>
+    <td>list-make</td>
+    <td rowspan="5">post</td>
+    <td>Listar un registro en particular o todos los existentes.</td>
+  </tr>
+  <tr>
+  <tr>
+    <td>create-make</td>    
+    <td>Crear uno o varios registros.</td>
+  </tr>
+  <tr>
+    <tr>
+      <td>update-make</td>
+      <td>Actualizar uno o varios registros.</td>
+  </tr>
+  <tr>
+  <tr>
+    <td>delete-make</td>
+    <td>delete</td>
+    <td>Eliminar un registro.</td>
+  </tr>
+  <tr>  
+    <td rowspan="4">Productos</td>
+    <td>list-product</td>
+    <td rowspan="3">post</td>
+    <td>Listar un registro en particular o todos los existentes.</td>
+  </tr>
+  <tr>  
+    <td>create-product</td>
+    <td>Crear uno o varios registros</td>
+  </tr>  
+  <tr>  
+    <td>update-product</td>
+    <td>Actualizar uno o varios registros</td>
+  </tr> 
+      <tr>  
+    <td>delete-product</td>
+    <td>delete</td>
+    <td>Eliminar un registro</td>
+  </tr> 
+  <tr>
+    <td rowspan="4">Categor&iacute;as</td>
+    <td>list-category </td>
+    <td rowspan="3">post</td>
+    <td>Listar un registro en particular o todos los existentes.
+</td>
+  </tr>
+  <tr>  
+    <td>create-category </td>
+    <td>Crear uno o varios registros</td>
+  </tr>  
+  <tr>  
+    <td>update-category</td>
+    <td>Actualizar uno o varios registros</td>
+  </tr> 
+      <tr>  
+    <td>delete-category</td>
+    <td>delete</td>
+    <td>Eliminar un registro</td>
+  </tr> 
+
+
+</table>
 
 El esquema básico URI para todas las funciones de la API es: 
 http://ulcommerce/api/{version}/{nombre_tienda}/{token}/{metodo}
@@ -87,24 +144,6 @@ A continuación se muestran los códigos de estado que podrán ser retornados po
 | 401 | Unauthorized, se genera al momento de realizar la autenticación y esta falla debido al token, nombre de la tienda o versión de la API. |
 | 404 | Not Found, recurso o método no encontrado. |
 | 500 | Internal Server.  |
-
-
-<table>
-  <tr>
-    <th>Month</th>
-    <th>Savings</th>
-    <th>Savings for holiday!</th>
-  </tr>
-  <tr>
-    <td>January</td>
-    <td>$100</td>
-    <td rowspan="2">$50</td>
-  </tr>
-  <tr>
-    <td>February</td>
-    <td>$80</td>
-  </tr>
-</table>
 
 <a name="id-metodos"></a>
 # II. Métodos Generales
