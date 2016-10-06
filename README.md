@@ -50,17 +50,19 @@ La siguiente tabla muestra la estructura general de la API:
   <tr>
     <td rowspan="7">Marcas</td>
     <td>list-make</td>
-    <td rowspan="5">post</td>
+    <td>post</td>
     <td>Listar un registro en particular o todos los existentes.</td>
   </tr>
   <tr>
   <tr>
-    <td>create-make</td>    
+    <td>create-make</td> 
+    <td>post</td>
     <td>Crear uno o varios registros.</td>
   </tr>
   <tr>
     <tr>
       <td>update-make</td>
+      <td>post</td>
       <td>Actualizar uno o varios registros.</td>
   </tr>
   <tr>
