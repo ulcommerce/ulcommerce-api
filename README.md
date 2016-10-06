@@ -489,8 +489,18 @@ Para eliminar una categoría se debe enviar el id de la categoría, ejemplo JSON
 > **Nota**: Para mayor información sobre los posibles errores retornados de la peticion consulte el [diccionario de errores](#id-diccionarioErrores).
 
 <a name="id-opciones"></a>
-### Gestion de Opciones
-aqui se ecribe lo relacionado a opciones
+### Gestión de Opciones
+En esta sección de la documentación se especificarán cada una de las opciones disponibles para configurar todas las variables que afectan la tienda.
+
+Las opciones de configuración se dividen en dos secciones principales.
+- Configuración de Ordenes.
+- Configuración General.
+
+## 1. Configuración de Ordenes
+Por medio de esta configuración se tiene acceso a:
+
+### - Estado de Ordenes.
+Aqui informacion de estado de ordenes.
 
 <a name="id-anexos"></a>
 # III. Anexos
