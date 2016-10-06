@@ -76,6 +76,8 @@ Pasos para obtener el token de la tienda :
 - En la barra de opciones ubicada al costado izquierdo de la página, hacer click en la opción <strong>Tiendas</strong>
 ( se listar&aacute;n las tiendas configuradas previamente en el administrador de la tienda. )
 - En la secci&oacute;n de en medio de la p&aacute;gina aparecer&aacute; por medio de un grid simple el nombre de la tienda, un boton para activar/desactivar la tienda, y un boton para editar la configuraci&oacute;.
+- Hacer click en el bot&oacute;n de la derecha para poder acceder al men&uacute; de configuraci&oacute;n.
+- En la barra central de opciones seleccionar <strong>configuracio&oacute;n</strong> y posteriormente ir hasta la parte inferior de la pantalla en <strong>Opciones de Desarrollo</strong>
 
 <a name="id-codigosEstado"></a>
 ### 3. Códigos de Estado
