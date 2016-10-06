@@ -488,6 +488,10 @@ Para eliminar una categoría se debe enviar el id de la categoría, ejemplo JSON
 
 > **Nota**: Para mayor información sobre los posibles errores retornados de la peticion consulte el [diccionario de errores](#id-diccionarioErrores).
 
+<a name="id-opciones"></a>
+### Gestion de Opciones
+aqui se ecribe lo relacionado a opciones
+
 <a name="id-anexos"></a>
 # III. Anexos
 <a name="id-diccionarioDatos"></a>
@@ -608,7 +612,3 @@ El Diccionario de Errores contiene la descripción del error y su posible soluci
 - **Categorías:**
 - **Json:** acrónimo de JavaScript Object Notation, es un formato ligero para el intercambio de datos.
 - **Token:** Identificador único de una aplicación que solicita el acceso a su servicio. 
-
-
-<a name="id-test"></a>
-# IV. Test
