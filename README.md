@@ -88,6 +88,24 @@ A continuación se muestran los códigos de estado que podrán ser retornados po
 | 404 | Not Found, recurso o método no encontrado. |
 | 500 | Internal Server.  |
 
+
+<table>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+    <th>Savings for holiday!</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+    <td rowspan="2">$50</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$80</td>
+  </tr>
+</table>
+
 <a name="id-metodos"></a>
 # II. Métodos Generales
 
