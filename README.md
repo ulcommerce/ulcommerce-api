@@ -492,12 +492,9 @@ Para eliminar una categoría se debe enviar el id de la categoría, ejemplo JSON
 ### Gestión de Opciones
 En esta sección de la documentación se especificarán cada una de las opciones disponibles para configurar todas las variables que afectan la tienda.
 
-Las opciones de configuración se dividen en dos secciones principales.
+Esta opción permite crear de forma dinámica las opciones necesarias para el buen funcionamiento y desarrollo de la tienda, no hay restricción de ningún tipo.
 
-<ul>
-  <li>Configuración de Colores.</li>
-  <li>Configuración de Combinaciones.</li>
-</ul>
+#### - Opción de Colores.
 
 <a name="id-anexos"></a>
 # III. Anexos
