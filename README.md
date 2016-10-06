@@ -72,7 +72,7 @@ La autenticación al momento de realizar peticiones esta basada en un token prop
 
 Pasos para obtener el token de la tienda :
 
---Aquí se debe especificar los pasos que debe seguir el cliente para obtener el token desde la interfaz gráfica. Romel
+1 : Entrar en la siguiente dirección http://www.ulcommerce.com/developer/
 
 <a name="id-codigosEstado"></a>
 ### 3. Códigos de Estado
@@ -83,8 +83,8 @@ A continuación se muestran los códigos de estado que podrán ser retornados po
 | Código | Descripción |
 | ------ | ------ |
 | 200 | OK, petición procesada exitosamente. |
-| 400 | Not Found, recurso o método no encontrado. |
 | 401 | Unauthorized, se genera al momento de realizar la autenticación y esta falla debido al token, nombre de la tienda o versión de la API. |
+| 404 | Not Found, recurso o método no encontrado. |
 | 500 | Internal Server.  |
 
 <a name="id-metodos"></a>
