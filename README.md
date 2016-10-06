@@ -493,8 +493,11 @@ Para eliminar una categoría se debe enviar el id de la categoría, ejemplo JSON
 En esta sección de la documentación se especificarán cada una de las opciones disponibles para configurar todas las variables que afectan la tienda.
 
 Las opciones de configuración se dividen en dos secciones principales.
-- Configuración de Colores.
-- Configuración de Combinaciones.
+
+<ul>
+  <li>Configuración de Colores.</li>
+  <li>Configuración de Combinaciones.</li>
+</ul>
 
 <a name="id-anexos"></a>
 # III. Anexos
