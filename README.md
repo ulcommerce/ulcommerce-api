@@ -79,11 +79,11 @@ Pasos para obtener el token de la tienda :
 - Hacer click en el bot&oacute;n de la derecha para poder acceder al men&uacute; de configuraci&oacute;n.
 - En la barra central de opciones seleccionar <strong>configuraci&oacute;n</strong> y posteriormente ir hasta la parte inferior de la pantalla en <strong>Opciones de Desarrollo</strong>
 
-En esta secci&oacute;n se obtiene el token de seguridad que se adiciona a la api para su correcto funcionamiento, hay dos opciones disponibles. Eliminar tienda y recargar token (esta opcion nos permite generar nuevamente un token aleatorio para el uso privado de la tienda)
+En esta secci&oacute;n se obtiene el token de seguridad que se adiciona a la Api para su correcto funcionamiento, hay dos opciones disponibles. Eliminar tienda y recargar token (esta opcion nos permite generar nuevamente un token aleatorio para el uso privado de la tienda)
 
 <a name="id-codigosEstado"></a>
 ### 3. Códigos de Estado
-Cuando se realiza una petición a la API se muestra un código de estado de HTTP en respuesta a la solicitud.Este código de estado proporciona información acerca del estado de la solicitud. 
+Cuando se realiza una petición a la API se muestra un código de estado de HTTP en respuesta a la solicitud. xzEste código de estado proporciona información acerca del estado de la solicitud. 
 
 A continuación se muestran los códigos de estado que podrán ser retornados por la api:
 
@@ -610,4 +610,5 @@ El Diccionario de Errores contiene la descripción del error y su posible soluci
 - **Token:** Identificador único de una aplicación que solicita el acceso a su servicio. 
 
 
-
+<a name="id-test"></a>
+# IV. Test
