@@ -73,7 +73,7 @@ La autenticación al momento de realizar peticiones esta basada en un token prop
 Pasos para obtener el token de la tienda :
 
 - Entrar en la siguiente dirección http://www.ulcommerce.com/developer/
-- En la barra de opciones ubicada al costado izquierdo de la página, hacer click en la opción "Tiendas"
+- En la barra de opciones ubicada al costado izquierdo de la página, hacer click en la opción <strong>Tiendas</strong>
 
 <a name="id-codigosEstado"></a>
 ### 3. Códigos de Estado
