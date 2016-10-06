@@ -42,8 +42,8 @@ La siguiente tabla muestra la estructura general de la API:
 
 | Dependencia | Método | Tipo de Petición | Funcionalidad |
 | ------ | ------ | ----- | ----- | ----- |
-| &nbsp; | list-make | post | Listar un registro en particular o todos los existentes. |
-| &nbsp; | create-make | post | Crear uno o varios registros. |
+| Marcas | list-make | post | Listar un registro en particular o todos los existentes. |
+| Marcas | create-make | post | Crear uno o varios registros. |
 | Marcas | update-make | post | Actualizar uno o varios registros. |
 | Marcas | delete-make | delete | Eliminar un registro. |
 | Productos | list-product | post | Listar un registro en particular o todos los existentes. |
