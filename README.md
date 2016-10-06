@@ -75,7 +75,7 @@ Pasos para obtener el token de la tienda :
 - Entrar en la siguiente dirección http://www.ulcommerce.com/developer/
 - En la barra de opciones ubicada al costado izquierdo de la página, hacer click en la opción <strong>Tiendas</strong>
 ( se listar&aacute;n las tiendas configuradas previamente en el administrador de la tienda. )
-- En la secci&oacute; de en medio de la p&aacute;gina aparecer&aacute; por medio de un grid simple aparecer&aacute; el nombre de la tienda, un boton para activar/desactivar la tienda, y un boton para editar la configuraci&oacute;.
+- En la secci&oacute;n de en medio de la p&aacute;gina aparecer&aacute; por medio de un grid simple aparecer&aacute; el nombre de la tienda, un boton para activar/desactivar la tienda, y un boton para editar la configuraci&oacute;.
 
 <a name="id-codigosEstado"></a>
 ### 3. Códigos de Estado
