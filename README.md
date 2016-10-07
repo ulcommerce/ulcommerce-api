@@ -294,6 +294,11 @@ El siguiente modelo JSON aplica para la creación de 2 registros, si se desea ag
 ```
 > **Nota**: Para mayor información sobre los posibles errores retornados de la petición consulte el [diccionario de errores](#id-diccionarioErrores).
 
+<a name="id-comPro"></a>
+#####Combinaciones de Productos
+
+Es posible realizar la combinación personalizada de productos segun sus medidas, colores, precio, codigo SKU. de esta forma se organiza de una manera más óptima el stock y es posible llevar un mejor control sobre los productos.
+
 <a name="id-actPro"></a>
 #####Actualización de Productos
 
@@ -512,11 +517,6 @@ Dentro de este nuevo menú ubicado en el centro de la pantalla se visualiza una 
   <li>Droplist</li>
 </ul>
 Junto a esta lista desplegable se encuentra un botón <strong>AGREGAR OPCIÓN</strong>, que permite efectivamente crear la opción seleccionada en la lista desplegable; una vez creada la nueva opción aparecerá en la lista de abajo
-
-<a name="id-comPro"></a>
-#####Combinaciones de Productos
-
-Es posible realizar la combinación personalizada de productos segun sus medidas, colores, precio, codigo SKU. de esta forma se organiza de una manera más óptima el stock y es posible llevar un mejor control sobre los productos.
 
 <a name="id-anexos"></a>
 # III. Anexos
