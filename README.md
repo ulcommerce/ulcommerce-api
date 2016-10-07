@@ -299,6 +299,45 @@ El siguiente modelo JSON aplica para la creación de 2 registros, si se desea ag
 
 Es posible realizar la combinación personalizada de productos segun sus medidas, colores, precio, codigo SKU. de esta forma se organiza de una manera más óptima el stock y es posible llevar un mejor control sobre los productos.
 
+La url de prueba para la creacion es una combinación es la siguiente:
+
+http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/create-product
+
+Dentro del objeto que se envía cuando se va a crear una nueva combinación debe haber un indice con la palabra reservada <strong>combinaciones</strong>
+
+```json
+    {
+    "products":[
+                {
+		    "combinaciones": 
+                }   
+            ]
+    }
+```
+Por medio del indice <strong>combinaciones</strong> se crea un array bidimensional con la lista de los productos a combinar de acuerdo a la relación de tablas.
+```json
+    {
+    "products":[
+                {
+		    "combinaciones": [
+		    	{
+			    "idCombination": "1",
+			    "stock": "Nombre del Producto",
+			    "width": "Descripción",
+			    "height": "Descripción corta del producto",
+			    "weight": "100",
+			    "price": "120",
+			    "salePrice": "50.000",
+			    "skuCombination":"Descripción SKU",
+			    "isMultipleOpts":"1(si)-2(no)",
+			    "product_id":"id-producto",
+			}
+		    ]
+                }   
+            ]
+    }
+```
+
 <a name="id-actPro"></a>
 #####Actualización de Productos
 
