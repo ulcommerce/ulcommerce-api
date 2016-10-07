@@ -312,21 +312,21 @@ El siguiente modelo JSON aplica para la creación de 2 registros, si se desea ag
                 {
 		    "combinaciones": [
 		    	{
-				    "idCombination": "1",
-				    "stock": "Nombre del Producto",
-				    "width": "Descripción",
-				    "height": "Descripción corta del producto",
-				    "weight": "100",
-				    "price": "120",
-				    "salePrice": "50.000",
-				    "skuCombination":"Descripción SKU",
-				    "isMultipleOpts":"1(si)-2(no)",
-				    "product_id":"id-producto",
+			    "idCombination": "1",
+			    "stock": "Nombre del Producto",
+			    "width": "Descripción",
+			    "height": "Descripción corta del producto",
+			    "weight": "100",
+			    "price": "120",
+			    "salePrice": "50.000",
+			    "skuCombination":"Descripción SKU",
+			    "isMultipleOpts":"1(si)-2(no)",
+			    "product_id":"id-producto",
 			}
 		    ]
                 }   
             ]
-    }
+    	}
 ```
 Es posible realizar la combinación personalizada de productos segun sus medidas, colores, precio, codigo SKU. de esta forma se organiza de una manera más óptima el stock y es posible llevar un mejor control sobre los productos.
 
