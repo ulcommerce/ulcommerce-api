@@ -304,16 +304,19 @@ La url de prueba para la creacion es una combinación es la siguiente:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/create-product
 
 Dentro del objeto que se envía cuando se va a crear una nueva combinación debe haber un indice con la palabra reservada <strong>combinaciones</strong>
-```json
+```
+json
     {
     "products":[
                 {
 		    "combinaciones": 
                 }   
             ]
-```}
+}
+```
 Por medio del indice <strong>combinaciones</strong> se crea un array bidimensional con la lista de los productos a combinar de acuerdo a la relación de tablas.
-```json
+```
+json
     {
     "products":[
                 {
