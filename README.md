@@ -304,7 +304,7 @@ El siguiente modelo JSON aplica para la creación de 2 registros, si se desea ag
 		    "combinaciones": 
                 }   
             ]
-}
+    }
 ```
 ```json
     {
@@ -312,16 +312,16 @@ El siguiente modelo JSON aplica para la creación de 2 registros, si se desea ag
                 {
 		    "combinaciones": [
 		    	{
-			    "idCombination": "1",
-			    "stock": "Nombre del Producto",
-			    "width": "Descripción",
-			    "height": "Descripción corta del producto",
-			    "weight": "100",
-			    "price": "120",
-			    "salePrice": "50.000",
-			    "skuCombination":"Descripción SKU",
-			    "isMultipleOpts":"1(si)-2(no)",
-			    "product_id":"id-producto",
+				    "idCombination": "1",
+				    "stock": "Nombre del Producto",
+				    "width": "Descripción",
+				    "height": "Descripción corta del producto",
+				    "weight": "100",
+				    "price": "120",
+				    "salePrice": "50.000",
+				    "skuCombination":"Descripción SKU",
+				    "isMultipleOpts":"1(si)-2(no)",
+				    "product_id":"id-producto",
 			}
 		    ]
                 }   
