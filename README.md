@@ -513,6 +513,10 @@ Dentro de este nuevo menú ubicado en el centro de la pantalla se visualiza una 
 </ul>
 Junto a esta lista desplegable se encuentra un botón <strong>AGREGAR OPCIÓN</strong>, que permite efectivamente crear la opción seleccionada en la lista desplegable; una vez creada la nueva opción aparecerá en la lista de abajo
 
+<a name="id-comPro"></a>
+#####Combinaciones de Productos
+
+Es posible realizar la combinación personalizada de productos segun sus medidas, colores, precio, codigo SKU. de esta forma se organiza de una manera más óptima el stock y es posible llevar un mejor control sobre los productos.
 
 <a name="id-anexos"></a>
 # III. Anexos
