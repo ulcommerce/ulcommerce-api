@@ -54,6 +54,10 @@ La siguiente tabla muestra la estructura general de la API:
 | Categorías  | create-category | post | Crear uno o varios registros. |
 | Categorías  | update-category | post | Actualizar uno o varios registros. |
 | Categorías  | delete-category | delete | Eliminar un registro. |
+| Opciones    | list-option     | post   | Listar una opción en particular o todos los clientes. |
+| Opciones    | create-option   | post   | Crear una o varios opciones. |
+| Opciones    | update-option   | post   | Actualizar una o varias opciones. |
+| Opciones    | delete-option   | delete | Eliminar una Opción. |
 
 El esquema básico URI para todas las funciones de la API es: 
 http://ulcommerce/api/{version}/{nombre_tienda}/{token}/{metodo}
@@ -494,7 +498,21 @@ En esta sección de la documentación se especificarán cada una de las opciones
 
 Esta opción permite crear de forma dinámica las opciones necesarias para el buen funcionamiento y desarrollo de la tienda, no hay restricción de ningún tipo.
 
+Tomando como referencia la opción de colores, se muestra el procedimiento necesario para crear una nueva opción personalizada.
 #### - Opción de Colores.
+Para acceder al menú de estas herramientas es necesario ingresar a la siguiente ruta en la parte lateral izquierda.
+
+Catálogo - Opciones.
+
+Dentro de este nuevo menú ubicado en el centro de la pantalla se visualiza una lista desplegable con las siguientes opciones:
+<ul>
+  <li>Colors</li>
+  <li>Checklist</li>
+  <li>Radiolist</li>
+  <li>Droplist</li>
+</ul>
+Junto a esta lista desplegable se encuentra un botón <strong>AGREGAR OPCIÓN</strong>, que permite efectivamente crear la opción seleccionada en la lista desplegable; una vez creada la nueva opción aparecerá en la lista de abajo
+
 
 <a name="id-anexos"></a>
 # III. Anexos
