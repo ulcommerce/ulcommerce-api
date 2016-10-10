@@ -161,14 +161,13 @@ En esta seccion de la documentacion se especificaran los procesos que se deben r
 
 Ejemplo para listar productos, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/list-product
-
-Para listar todos los productos simplemente se realiza la petición a la url anterior, si se desea un registro específico se debe enviar el siguiente JSON:
-
 ```json
     {
         "id": "numero"
     }
 ```
+Para listar todos los productos simplemente se realiza la petición a la url anterior, si se desea un registro específico se debe enviar el siguiente JSON:
+
 > **Nota:**"Número" representa el id del producto que desea listar.
 
 > **Nota**: Para mayor información sobre los posibles errores retornados de la petición consulte el [diccionario de errores](#id-diccionarioErrores).
@@ -181,23 +180,21 @@ http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/create-product
 ```json
     {
     "products":[
-                {
-                    "sku": "1",
-                    "name": "Nombre del Producto",
-                    "description": "Descripción",
-                    "shortDescription": "Descripción corta del producto",
-                    "price": "100",
-                    "salePrice": "120",
-                    "freeShipping": "1",
-                    "tax": "0",
-                    "stock": "10",
+			{
+			    "sku": "1",
+			    "name": "Nombre del Producto",
+			    "description": "Descripción",
+			    "shortDescription": "Descripción corta del producto",
+			    "price": "100",
+			    "salePrice": "120",
+			    "stock": "10",
 			    "visibility": "1",
 			    "enabled": "1",
 			    "seoTitle": "Titulo posicionamiento Web",
 			    "seoDescription": "Descripción Posicionamiento Web",
-                    "make_id": "15"
-                } 
-            ]
+			    "make_id": "15"
+			} 
+	  	 ]
     }
 ```
 Al momento de realizar el envío de los datos para la creación de productos se debe tener en cuenta el [diccionario de datos de creación de productos ](#id-datosCrePro).
@@ -263,8 +260,6 @@ El siguiente modelo JSON aplica para la actualización de 2 registros, si se des
                     "shortDescription": "Descripción corta del producto",
                     "price": "100",
                     "salePrice": "120",
-                    "freeShipping": "1",
-                    "tax": "0",
                     "stock": "10",
                     "make_id": "15"
                 },
@@ -277,7 +272,6 @@ El siguiente modelo JSON aplica para la actualización de 2 registros, si se des
                     "price": "100",
                     "salePrice": "120",
                     "freeShipping": "1",
-                    "tax": "0",
                     "stock": "10",
                     "make_id": "22"
                 }    
