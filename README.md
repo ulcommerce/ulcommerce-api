@@ -54,6 +54,8 @@ La siguiente tabla muestra la estructura general de la API:
 | Categorías  | create-category | post | Crear uno o varios registros. |
 | Categorías  | update-category | post | Actualizar uno o varios registros. |
 | Categorías  | delete-category | delete | Eliminar un registro. |
+| Combinación | create-product  | post   | Crear uno o varios registros. |
+| Combinación | delete-product | delete | Eliminar un registro. |
 | Opciones    | list-option     | post   | Listar una opción en particular o todos los clientes. |
 | Opciones    | create-option   | post   | Crear una o varios opciones. |
 | Opciones    | update-option   | post   | Actualizar una o varias opciones. |
