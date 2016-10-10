@@ -1,15 +1,15 @@
 ulcommerce API V 0.1
 =======
 
-La Api V 0.1 ha sido desarrollada conforme a los últimos modelos de calidad aplicando estándares apropiados de seguridad, rendimiento, compatibilidad, legibilidad entre otros.
+La API V 0.1 ha sido desarrollada conforme a los últimos modelos de calidad aplicando estándares apropiados de seguridad, rendimiento, compatibilidad, legibilidad entre otros.
 
 <a name="id-introduccion"></a>
 # I. Introducción
-En esta guía se muestra cada uno de los componentes que posee la Api de Ulcommerce con su correspondiente configuración y correcto funcionamiento, la presente herramienta muestra en la sección lateral derecha la configuración de los datos de tipo <strong>Json</strong>.
+En esta guía se muestra cada uno de los componentes que posee la API de Ulcommerce Plus con su correspondiente configuración y correcto funcionamiento, la presente herramienta muestra en la sección lateral derecha la configuración de los datos de tipo <strong>Json</strong>.
 
 <a name="id-funcionamientoAPI"></a>
 ### 1. Funcionamiento de la API
-La API de ulcommerce plus es una API REST que utiliza los métodos HTTP para listar, crear, actualizar (POST) o eliminar (DELETE) marcas, productos o categorías de forma individual o masiva. 
+La API de ulcommerce plus es una API REST que utiliza los métodos HTTP para listar (POST), crear (POST), actualizar (POST) o eliminar (DELETE) marcas, productos o categorías de forma individual o masiva. 
 
 La siguiente tabla muestra la estructura general de la API:
 
@@ -59,9 +59,9 @@ En esta secci&oacute;n se obtiene el token de seguridad que se adiciona a la Api
 
 <a name="id-codigosEstado"></a>
 ### 3. Códigos de Estado
-Cuando se realiza una petición a la API se muestra un código de estado de HTTP en respuesta a la solicitud. xzEste código de estado proporciona información acerca del estado de la solicitud. 
+Cuando se realiza una petición a la API se muestra un código de estado de HTTP en respuesta a la solicitud. Este código de estado proporciona información acerca del estado de la solicitud. 
 
-A continuación se muestran los códigos de estado que podrán ser retornados por la api:
+A continuación se muestran los códigos de estado que podrán ser retornados por la API:
 
 | Código | Descripción |
 | ------ | ------ |
@@ -91,15 +91,11 @@ Para listar todas las marcas simplemente se realiza la petición a la url anteri
 ```
 > **Nota:**"numero" representa el id de la marca que desea listar.
 
-> **Nota**: Para mayor información sobre los posibles errores retornados de la petición consulte el [diccionario de errores](#id-diccionarioErrores).
-
 <a name="id-creMar"></a>
 #####Creación de Marcas
 
 Ejemplo para creación de marcas, url de prueba:
-http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/create-product
-
-> **Nota**: la petición http para este método debe ser de tipo post.
+http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/create-make
 
 Al momento de realizar el envío de los datos para la creación de las marcas se debe tener en cuenta el [diccionario de datos de creación de marcas](#id-datosCreMar).
 
