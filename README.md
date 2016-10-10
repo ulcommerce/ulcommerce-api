@@ -78,13 +78,14 @@ En esta sección de la documentación se especificarán los procesos que se debe
 <a name="id-lisMar"></a>
 #####Listar Marcas de Productos
 
+Ejemplo para listar marcas de productos, url de prueba:
+http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/list-make
+
 ```json
     {
         "id": "numero"
     }
 ```
-Ejemplo para listar marcas de productos, url de prueba:
-http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/list-make
 
 Para listar todas las marcas simplemente se realiza la petición a la url anterior, si se desea una marca específica se debe enviar el siguiente JSON:
 > **Nota:**"numero" representa el id de la marca que desea listar.
