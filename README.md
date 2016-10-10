@@ -531,7 +531,9 @@ En esta sección de la documentación se especificarán cada una de las opciones
 
 Esta opción permite crear de forma dinámica las opciones necesarias para el buen funcionamiento y desarrollo de la tienda, no hay restricción de ningún tipo.
 La url de prueba para la creacion de una opción es la siguiente:
+
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/create-product
+
 Dentro del objeto que se envía cuando se va a crear una nueva opción debe haber un indice con la palabra reservada <strong>create_option</strong> con un valor 1, de esta manera la Api reconoce que se quiere crear una nueva opción.
 <a name="id-anexos"></a>
 # III. Anexos
