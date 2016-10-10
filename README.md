@@ -297,7 +297,8 @@ El siguiente modelo JSON aplica para la creación de 2 registros, si se desea ag
 
 <a name="id-comPro"></a>
 #####Combinaciones de Productos
-Es posible realizar la combinación personalizada de productos segun sus medidas, colores, precio, codigo SKU. de esta forma se organiza de una manera más óptima el stock y es posible llevar un mejor control sobre los productos.```json
+Es posible realizar la combinación personalizada de productos segun sus medidas, colores, precio, codigo SKU. de esta forma se organiza de una manera más óptima el stock y es posible llevar un mejor control sobre los productos.
+```json
     {
     "products":[
                 {
@@ -328,7 +329,6 @@ Es posible realizar la combinación personalizada de productos segun sus medidas
             ]
     	}
 ```
-
 La url de prueba para la creacion es una combinación es la siguiente:
 
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/create-product
