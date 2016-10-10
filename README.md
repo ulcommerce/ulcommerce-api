@@ -76,7 +76,8 @@ A continuación se muestran los códigos de estado que podrán ser retornados po
 ### Gestión de Marcas
 En esta sección de la documentación se especificarán los procesos que se deben realizar para listar, crear, actualizar y eliminar marcas de manera correcta por medio de la API.
 <a name="id-lisMar"></a>
-#####Listar Marcas de Productos 
+#####Listar Marcas de Productos
+
 ```json
     {
         "id": "numero"
