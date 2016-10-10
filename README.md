@@ -400,7 +400,7 @@ El Diccionario de Datos contiene las características de registro que se deben c
 | meta | Metadatos para Seo | N | Text | N/A |
 
 <a name="id-datosActMar"></a>
-### Actualización de Marcas
+###  - Actualización de Marcas
 
 | Nombre Campo | Descripción | Requerido | Tipo Dato | Tamaño |
 |----|----|----|----|----|
@@ -414,7 +414,7 @@ El Diccionario de Datos contiene las características de registro que se deben c
 | meta | Metadatos para Seo | N | Text | N/A |
 
 <a name="id-datosCrePro"></a>
-### Creación de Productos
+###  - Creación de Productos
 
 | Nombre Campo | Descripción | Requerido | Tipo Dato | Tamaño |
 |----|----|----|----|----|
@@ -430,7 +430,7 @@ El Diccionario de Datos contiene las características de registro que se deben c
 | make_id | Id de la marca | S | Integer | N/A |
 
 <a name="id-datosActPro"></a>
-### Actualización de Productos
+###  - Actualización de Productos
 
 | Nombre Campo | Descripción | Requerido | Tipo Dato | Tamaño |
 |----|----|----|----|----|
@@ -447,7 +447,7 @@ El Diccionario de Datos contiene las características de registro que se deben c
 | make_id | Id de la marca | N | Integer | N/A |
 
 <a name="id-datosCreCat"></a>
-### Creación de Categorías
+###  - Creación de Categorías
 
 | Nombre Campo | Descripción | Requerido | Tipo Dato | Tamaño |
 |----|----|----|----|----|
@@ -461,7 +461,7 @@ El Diccionario de Datos contiene las características de registro que se deben c
 | meta | -- | N | Text | N/A |
 
 <a name="id-datosActCat"></a>
-### Actualización de Categorías
+###  - Actualización de Categorías
 
 | Nombre Campo | Descripción | Requerido | Tipo Dato | Tamaño |
 |----|----|----|----|----|
