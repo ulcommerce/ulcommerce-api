@@ -205,6 +205,8 @@ Al momento de realizar el envío de los datos para la creación de productos se 
 
 Para realizar la creación de productos se debe tener en cuenta que se pueden crear uno o varios registros a partir de una sola petición a la API.
 
+<i><b>Recuerde que si existen combinaciones para el producto, cada una de estas debe tener un stock independiente; de lo contrario el stock debe aplicar al producto en general.</b></i>
+
 <a name="id-comPro"></a>
 ###  - Combinaciones de Productos
 Es posible realizar la combinación personalizada de productos segun sus medidas, colores, precio, codigo SKU. de esta forma se organiza de una manera más óptima el stock y es posible llevar un mejor control sobre los productos.
