@@ -55,7 +55,6 @@ La siguiente tabla muestra la estructura general de la API:
 | Categorías  | update-category | post | Actualizar uno o varios registros. |
 | Categorías  | delete-category | delete | Eliminar un registro. |
 | Combinación | create-product  | post   | Crear uno o varios registros. |
-| Combinación | delete-product | delete | Eliminar un registro. |
 | Opciones    | list-option     | post   | Listar una opción en particular o todos los clientes. |
 | Opciones    | create-option   | post   | Crear una o varios opciones. |
 | Opciones    | update-option   | post   | Actualizar una o varias opciones. |
@@ -298,8 +297,7 @@ El siguiente modelo JSON aplica para la creación de 2 registros, si se desea ag
 
 <a name="id-comPro"></a>
 #####Combinaciones de Productos
-
-```json
+Es posible realizar la combinación personalizada de productos segun sus medidas, colores, precio, codigo SKU. de esta forma se organiza de una manera más óptima el stock y es posible llevar un mejor control sobre los productos.```json
     {
     "products":[
                 {
@@ -330,7 +328,6 @@ El siguiente modelo JSON aplica para la creación de 2 registros, si se desea ag
             ]
     	}
 ```
-Es posible realizar la combinación personalizada de productos segun sus medidas, colores, precio, codigo SKU. de esta forma se organiza de una manera más óptima el stock y es posible llevar un mejor control sobre los productos.
 
 La url de prueba para la creacion es una combinación es la siguiente:
 
