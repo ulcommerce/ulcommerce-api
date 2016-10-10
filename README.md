@@ -13,7 +13,7 @@ La API V 0.1 ha sido desarrollada conforme a los últimos modelos de calidad apl
 En esta guía se muestra cada uno de los componentes que posee la API de Ulcommerce Plus con su correspondiente configuración y correcto funcionamiento, la presente herramienta muestra en la sección lateral derecha la configuración de los datos de tipo <strong>Json</strong>.
 
 <a name="id-funcionamientoAPI"></a>
-### 1. Funcionamiento de la API
+## 1. Funcionamiento de la API
 La API de ulcommerce plus es una API REST que utiliza los métodos HTTP para listar (POST), crear (POST), actualizar (POST) o eliminar (DELETE) marcas, productos o categorías de forma individual o masiva. 
 
 La siguiente tabla muestra la estructura general de la API:
@@ -48,7 +48,7 @@ Especificaciones de los parámetros de la uri:
 Las peticiones y las respuestas se envían con formato JSON.
 
 <a name="id-autenticacion"></a>
-### 2. Autenticación
+## 2. Autenticación
 La autenticación al momento de realizar peticiones esta basada en un token propio de cada tienda.
 
 Pasos para obtener el token de la tienda :
@@ -63,7 +63,7 @@ Pasos para obtener el token de la tienda :
 En esta secci&oacute;n se obtiene el token de seguridad que se adiciona a la Api para su correcto funcionamiento, hay dos opciones disponibles. Eliminar tienda y recargar token (esta opcion nos permite generar nuevamente un token aleatorio para el uso privado de la tienda)
 
 <a name="id-codigosEstado"></a>
-### 3. Códigos de Estado
+## 3. Códigos de Estado
 Cuando se realiza una petición a la API se muestra un código de estado de HTTP en respuesta a la solicitud. Este código de estado proporciona información acerca del estado de la solicitud. 
 
 A continuación se muestran los códigos de estado que podrán ser retornados por la API:
@@ -83,7 +83,7 @@ A continuación se muestran los códigos de estado que podrán ser retornados po
 En esta sección de la documentación se especificarán los procesos que se deben realizar para listar, crear, actualizar y eliminar marcas de manera correcta por medio de la API.
 
 <a name="id-lisMar"></a>
-####Listar Marcas de Productos 
+###Listar Marcas de Productos 
 Ejemplo para listar marcas de productos, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/list-make
 
