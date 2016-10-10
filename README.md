@@ -79,7 +79,7 @@ A continuación se muestran los códigos de estado que podrán ser retornados po
 # II. Métodos Generales
 
 <a name="id-marcas"></a>
-## Gestión de Marcas
+##1.Gestión de Marcas
 En esta sección de la documentación se especificarán los procesos que se deben realizar para listar, crear, actualizar y eliminar marcas de manera correcta por medio de la API.
 
 <a name="id-lisMar"></a>
@@ -160,10 +160,10 @@ Para eliminar una marca se debe enviar el id de la marca, ejemplo JSON:
 > **Nota:**"Número" representa el id de la marca que desea eliminar.
 
 <a name="id-productos"></a>
-##Gestión de Productos
+##2.Gestión de Productos
 En esta seccion de la documentacion se especificaran los procesos que se deben realizar para listar, crear, actualizar y eliminar productos de manera correcta por medio de la API.
 <a name="id-lisPro"></a>
-###Listado de Productos
+###  - Listado de Productos
 
 Ejemplo para listar productos, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/list-product
@@ -278,7 +278,7 @@ http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/delete-product
 Para eliminar un producto se debe enviar el id del producto, ejemplo JSON:
 
 <a name="id-categorias"></a>
-## Gestion de Categorias
+##3.Gestion de Categorias
 En esta sección de la documentación se especificarán los procesos que se deben realizar para listar, crear, actualizar y eliminar categorías de manera correcta por medio de la API.
 <a name="id-lisCat"></a>
 ###  - Listado de Categorias
@@ -367,7 +367,7 @@ Para eliminar una categoría se debe enviar el id de la categoría, ejemplo JSON
 > **Nota:** "numero" representa el id de la categoria que desea eliminar.
 
 <a name="id-opciones"></a>
-## Gestión de Opciones
+##4.Gestión de Opciones
 En esta sección de la documentación se especificarán cada una de las opciones disponibles para configurar todas las variables que afectan la tienda.
 
 Esta opción permite crear de forma dinámica las opciones necesarias para el buen funcionamiento y desarrollo de la tienda, no hay restricción de ningún tipo.
