@@ -75,13 +75,15 @@ A continuación se muestran los códigos de estado que podrán ser retornados po
 | 404 | Not Found, recurso o método no encontrado. |
 | 500 | Internal Server.  |
 
-II. Métodos Generales
-===========
-Gestión de Marcas
+<a name="id-metodos"></a>
+# II. Métodos Generales
 
+<a name="id-marcas"></a>
+### Gestión de Marcas
 En esta sección de la documentación se especificarán los procesos que se deben realizar para listar, crear, actualizar y eliminar marcas de manera correcta por medio de la API.
------
-### Listar Marcas de Productos
+
+<a name="id-lisMar"></a>
+#####Listar Marcas de Productos 
 Ejemplo para listar marcas de productos, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/list-make
 
