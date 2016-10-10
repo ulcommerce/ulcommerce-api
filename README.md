@@ -107,7 +107,7 @@ http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/create-make
                     "seoTitle": "Titulo SEO",
                     "seoDescription": "Descripción SEO",
                     "visibility": "1",
-		    "image": "url-to-image"
+		    "image": "url-to-image",
                 }   
             ]
     }
@@ -130,20 +130,15 @@ http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/update-make
                     "sequence": "1",
                     "seoTitle": "Titulo SEO",
                     "seoDescription": "Descripción SEO",
-                    "meta": "Meta"
+                    "visibility": "1",
+		    "image": "url-to-image",
                 }  
             ]
     }
 ```
 Al momento de realizar el envío de los datos para la actualización de las marcas se debe tener en cuenta el [diccionario de datos de actualización de marcas](#id-datosActMar).
 
-Para la actualización de marcas se debe tener en cuenta que se pueden actualizar uno o varios registros a partir de una sola petición a la API. 
-
 En este método se envían solamente los datos que desea actualizar en el registro (no es necesario enviar todos los datos nuevamente en la petición). 
-
-El siguiente modelo JSON aplica para la actualización de 2 registros, si se desea actualizar un registro o varios se debe modificar según la necesidad:
-
-> **Nota**: Para mayor información sobre los posibles errores retornados de la petición consulte el [diccionario de errores](#id-diccionarioErrores).
 
 <a name="id-eliMar"></a>
 #####Eliminación de Marcas
