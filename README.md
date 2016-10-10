@@ -83,25 +83,19 @@ http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/list-make
 
 ```json
     {
-        "id": "numero"
+        "id": "Número"
     }
 ```
 
-Para listar todas las marcas simplemente se realiza la petición a la url anterior, si se desea una marca específica se debe enviar el siguiente JSON:
-> **Nota:**"numero" representa el id de la marca que desea listar.
+Para listar todas las marcas simplemente se realiza la petición a la url anterior ( Sin pasar ningún parametro ), si se desea una marca específica se debe enviar el siguiente JSON:
+
+> **Nota:**" Número" representa el id de la marca que desea listar.
 
 <a name="id-creMar"></a>
 #####Creación de Marcas
 
 Ejemplo para creación de marcas, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/create-make
-
-Al momento de realizar el envío de los datos para la creación de las marcas se debe tener en cuenta el [diccionario de datos de creación de marcas](#id-datosCreMar).
-
-Para realizar la creación de marcas se debe tener en cuenta que se pueden crear uno o varios registros a partir de una sola petición a la API. 
-
-El siguiente modelo JSON aplica para la creación de 2 registros, si se desea agregar o insertar solamente un registro se debe modificar según la necesidad:
-
 ```json
     {
     "makes":[
@@ -126,6 +120,12 @@ El siguiente modelo JSON aplica para la creación de 2 registros, si se desea ag
             ]
     }
 ```
+Al momento de realizar el envío de los datos para la creación de las marcas se debe tener en cuenta el [diccionario de datos de creación de marcas](#id-datosCreMar).
+
+Para realizar la creación de marcas se debe tener en cuenta que se pueden crear uno o varios registros a partir de una sola petición a la API. 
+
+El siguiente modelo JSON aplica para la creación de 2 registros, si se desea agregar o insertar solamente un registro se debe modificar según la necesidad:
+
 > **Nota**: Para mayor información sobre los posibles errores retornados de la petición consulte el [diccionario de errores](#id-diccionarioErrores).
 
 <a name="id-actMar"></a>
