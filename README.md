@@ -322,15 +322,11 @@ Al momento de realizar el envío de los datos para la creación de la categoría
 Para realizar la creacion de categorias se debe tener en cuenta que se pueden crear uno o varios registros a partir de una sola petición a la API. 
 El siguiente modelo JSON aplica para la creación de 2 registros, si se desea agregar o insertar solamente un registro se debe modificar según la necesidad:
 
-> **Nota**: Para mayor información sobre los posibles errores retornados de la petición consulte el [diccionario de errores](#id-diccionarioErrores).
-
 <a name="id-actCat"></a>
 ###Actualización de Categorías
 
 Ejemplo para actualización de categorias, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/update-category
-
-> **Nota**: la petición http para este método debe ser de tipo post.
 
 Al momento de realizar el envío de los datos para la actualización de la categoría se debe tener en cuenta el [diccionario de datos de actualización de categorías](#id-datosActCat).
 
@@ -363,8 +359,6 @@ El siguiente modelo JSON aplica para la creación de 2 registros, si se desea ac
 Ejemplo de eliminación de categorías, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/delete-category
 
-> **Nota**: la petición http para este método debe ser de tipo delete.
-
 Para eliminar una categoría se debe enviar el id de la categoría, ejemplo JSON:
 
 ```json
@@ -373,8 +367,6 @@ Para eliminar una categoría se debe enviar el id de la categoría, ejemplo JSON
 	}
 ```
 > **Nota:** "numero" representa el id de la categoria que desea eliminar.
-
-> **Nota**: Para mayor información sobre los posibles errores retornados de la peticion consulte el [diccionario de errores](#id-diccionarioErrores).
 
 <a name="id-opciones"></a>
 ## Gestión de Opciones
@@ -395,7 +387,7 @@ El Diccionario de Datos es la tabla que relaciona y describe las variables que d
 El Diccionario de Datos contiene las características de registro que se deben cumplir, como el tamaño de la variable, el tipo de dato y si es requerido o no su registro. También contiene la validación realizada por la API para determinar si el dato registrado es correcto.
 
 <a name="id-datosCreMar"></a>
-### Diccionario de datos de Creación de Marcas
+### Creación de Marcas
 
 | Nombre Campo | Descripción | Requerido | Tipo Dato | Tamaño |
 |----|----|----|----|----|
@@ -408,7 +400,7 @@ El Diccionario de Datos contiene las características de registro que se deben c
 | meta | Metadatos para Seo | N | Text | N/A |
 
 <a name="id-datosActMar"></a>
-### Diccionario de datos de Actualización de Marcas
+### Actualización de Marcas
 
 | Nombre Campo | Descripción | Requerido | Tipo Dato | Tamaño |
 |----|----|----|----|----|
@@ -422,7 +414,7 @@ El Diccionario de Datos contiene las características de registro que se deben c
 | meta | Metadatos para Seo | N | Text | N/A |
 
 <a name="id-datosCrePro"></a>
-### Diccionario de datos de Creación de Productos
+### Creación de Productos
 
 | Nombre Campo | Descripción | Requerido | Tipo Dato | Tamaño |
 |----|----|----|----|----|
@@ -438,7 +430,7 @@ El Diccionario de Datos contiene las características de registro que se deben c
 | make_id | Id de la marca | S | Integer | N/A |
 
 <a name="id-datosActPro"></a>
-### Diccionario de datos de Actualización de Productos
+### Actualización de Productos
 
 | Nombre Campo | Descripción | Requerido | Tipo Dato | Tamaño |
 |----|----|----|----|----|
@@ -455,7 +447,7 @@ El Diccionario de Datos contiene las características de registro que se deben c
 | make_id | Id de la marca | N | Integer | N/A |
 
 <a name="id-datosCreCat"></a>
-### Diccionario de datos de Creación de Categorías
+### Creación de Categorías
 
 | Nombre Campo | Descripción | Requerido | Tipo Dato | Tamaño |
 |----|----|----|----|----|
@@ -469,7 +461,7 @@ El Diccionario de Datos contiene las características de registro que se deben c
 | meta | -- | N | Text | N/A |
 
 <a name="id-datosActCat"></a>
-### Diccionario de datos de Actualización de Categorías
+### Actualización de Categorías
 
 | Nombre Campo | Descripción | Requerido | Tipo Dato | Tamaño |
 |----|----|----|----|----|
