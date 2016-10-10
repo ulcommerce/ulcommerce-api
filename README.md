@@ -3,6 +3,10 @@ ulcommerce API V 0.1
 
 La API V 0.1 ha sido desarrollada conforme a los últimos modelos de calidad aplicando estándares apropiados de seguridad, rendimiento, compatibilidad, legibilidad entre otros.
 
+*Current version: [v0.1][dist]*
+
+[![Build Status](https://travis-ci.org/rstacruz/flatdoc.svg?branch=gh-pages)](https://travis-ci.org/rstacruz/flatdoc)
+
 <a name="id-introduccion"></a>
 # I. Introducción
 En esta guía se muestra cada uno de los componentes que posee la API de Ulcommerce Plus con su correspondiente configuración y correcto funcionamiento, la presente herramienta muestra en la sección lateral derecha la configuración de los datos de tipo <strong>Json</strong>.
