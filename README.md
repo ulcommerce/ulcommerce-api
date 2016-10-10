@@ -107,7 +107,7 @@ http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/create-make
                     "seoTitle": "Titulo SEO",
                     "seoDescription": "Descripción SEO",
                     "visibility": "1",
-		    "image": "url-to-image",
+		    	"image": "url-to-image",
                 }   
             ]
     }
@@ -131,7 +131,7 @@ http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/update-make
                     "seoTitle": "Titulo SEO",
                     "seoDescription": "Descripción SEO",
                     "visibility": "1",
-		    "image": "url-to-image",
+		    	"image": "url-to-image",
                 }  
             ]
     }
@@ -146,8 +146,6 @@ En este método se envían solamente los datos que desea actualizar en el regist
 Ejemplo de eliminación de marcas, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/delete-make
 
-> **Nota**: la petición http para este método debe ser de tipo delete.
-
 Para eliminar una marca se debe enviar el id de la marca, ejemplo JSON:
 
 ```json
@@ -155,9 +153,7 @@ Para eliminar una marca se debe enviar el id de la marca, ejemplo JSON:
 	    "id": "numero"
 	}
 ```
-> **Nota:**"numero" representa el id de la marca que desea eliminar.
-
-> **Nota**: Para mayor información sobre los posibles errores retornados de la petición consulte el [diccionario de errores](#id-diccionarioErrores).
+> **Nota:**"Número" representa el id de la marca que desea eliminar.
 
 <a name="id-productos"></a>
 ###Gestión de Productos
@@ -168,8 +164,6 @@ En esta seccion de la documentacion se especificaran los procesos que se deben r
 Ejemplo para listar productos, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/list-product
 
-> **Nota**: la petición http para este método debe ser de tipo post.
-
 Para listar todos los productos simplemente se realiza la petición a la url anterior, si se desea un registro específico se debe enviar el siguiente JSON:
 
 ```json
@@ -177,7 +171,7 @@ Para listar todos los productos simplemente se realiza la petición a la url ant
         "id": "numero"
     }
 ```
-> **Nota:**"numero" representa el id del producto que desea listar.
+> **Nota:**"Número" representa el id del producto que desea listar.
 
 > **Nota**: Para mayor información sobre los posibles errores retornados de la petición consulte el [diccionario de errores](#id-diccionarioErrores).
 
@@ -208,24 +202,15 @@ El siguiente modelo JSON aplica para la creación de 2 registros, si se desea ag
                     "freeShipping": "1",
                     "tax": "0",
                     "stock": "10",
+		    "visibility": "1",
+		    "enabled": "1",
+		    "seoTitle": "Titulo posicionamiento Web",
+		    "seoDescription": "Descripción Posicionamiento Web",
                     "make_id": "15"
-                },
-                {
-                    "sku": "1",
-                    "name": "Nombre del Producto",
-                    "description": "Descripción",
-                    "shortDescription": "Descripción corta del producto",
-                    "price": "100",
-                    "salePrice": "120",
-                    "freeShipping": "1",
-                    "tax": "0",
-                    "stock": "10",
-                    "make_id": "22"
-                }    
+                } 
             ]
     }
 ```
-> **Nota**: Para mayor información sobre los posibles errores retornados de la petición consulte el [diccionario de errores](#id-diccionarioErrores).
 
 <a name="id-comPro"></a>
 #####Combinaciones de Productos
