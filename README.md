@@ -207,26 +207,26 @@ Es posible realizar la combinación personalizada de productos segun sus medidas
 ```json
     {
     "products":[
-	{
-	    "combinaciones": [
-			{
-			    "idCombination": "1",
-			    "stock": "Nombre del Producto",
-			    "width": "Descripción",
-			    "height": "Descripción corta del producto",
-			    "weight": "100",
-			    "price": "120",
-			    "salePrice": "50.000",
-			    "skuCombination":"Descripción SKU",
-			    "isMultipleOpts":"1(si)-2(no)",
-			    "product_id":"id-producto",
-			}
-		    ]
+		{
+		    "combinaciones": [
+				{
+				    "idCombination": "1",
+				    "stock": "Nombre del Producto",
+				    "width": "Descripción",
+				    "height": "Descripción corta del producto",
+				    "weight": "100",
+				    "price": "120",
+				    "salePrice": "50.000",
+				    "skuCombination":"Descripción SKU",
+				    "isMultipleOpts":"1(si)-2(no)",
+				    "product_id":"id-producto",
+				}
+			]
 		}   
-	    ]
+	]
 }
 ```
-La url de prueba para la creacion es una combinación es la siguiente:
+La url de prueba para la creacion de una combinación es la siguiente:
 
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/create-product
 
@@ -238,17 +238,6 @@ Por medio del indice <strong>combinaciones</strong> se crea un array bidimension
 
 Ejemplo para actualización de productos, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/update-product
-
-> **Nota**: la petición http para este método debe ser de tipo post.
-
-Al momento de realizar el envío de los datos para la creación del producto se debe tener en cuenta el [diccionario de datos de actualización de productos](#id-datosActPro).
-
-Para realizar la actualización de productos se debe tener en cuenta que se pueden actualizar uno o varios registros a partir de una sola petición a la API. 
-
-En este método se envían solamente los datos que desea actualizar en el registro (no es necesario enviar todos los datos del registro nuevamente en la petición).
-
-El siguiente modelo JSON aplica para la actualización de 2 registros, si se desea actualizar un registro o varios se debe modificar según la necesidad:
-
 ```json
     {
     "products":[
@@ -262,22 +251,17 @@ El siguiente modelo JSON aplica para la actualización de 2 registros, si se des
                     "salePrice": "120",
                     "stock": "10",
                     "make_id": "15"
-                },
-                {
-                    "id": "6",
-                    "sku": "1",
-                    "name": "Nombre del Producto Actualizado",
-                    "description": "Descripción",
-                    "shortDescription": "Descripción corta del producto",
-                    "price": "100",
-                    "salePrice": "120",
-                    "freeShipping": "1",
-                    "stock": "10",
-                    "make_id": "22"
-                }    
+                }
             ]
     }
 ```
+Al momento de realizar el envío de los datos para la creación del producto se debe tener en cuenta el [diccionario de datos de actualización de productos](#id-datosActPro).
+
+Para realizar la actualización de productos se debe tener en cuenta que se pueden actualizar uno o varios registros a partir de una sola petición a la API. 
+
+En este método se envían solamente los datos que desea actualizar en el registro (no es necesario enviar todos los datos del registro nuevamente en la petición).
+
+El siguiente modelo JSON aplica para la actualización de 2 registros, si se desea actualizar un registro o varios se debe modificar según la necesidad:
 
 > **Nota**: Para mayor información sobre los posibles errores retornados de la petición consulte el [diccionario de errores](#id-diccionarioErrores).
 
@@ -286,17 +270,12 @@ El siguiente modelo JSON aplica para la actualización de 2 registros, si se des
 
 Ejemplo de eliminación de productos, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/delete-product
-
-> **Nota**: la petición http para este método debe ser de tipo delete.
-
-Para eliminar un producto se debe enviar el id del producto, ejemplo JSON:
-
 ```json
 	{
 	    "id": "numero"
 	}
 ```
-> **Nota:**"numero" representa el id del producto que desea eliminar.
+Para eliminar un producto se debe enviar el id del producto, ejemplo JSON:
 
 > **Nota**: Para mayor información sobre los posibles errores retornados de la petición consulte el [diccionario de errores](#id-diccionarioErrores).
 
@@ -308,17 +287,12 @@ En esta sección de la documentación se especificarán los procesos que se debe
 
 Ejemplo para listar categorias, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/list-category
-
-> **Nota**: la petición http para este método debe ser de tipo post.
-
-Para listar todas las categorías simplemente se realiza la petición a la url anterior, si se desea un registro específico se debe enviar el siguiente JSON:
-
 ```json
     {
-        "id": "numero"
+        "id": "int"
     }
 ```
-> **Nota:**"numero" representa el id de la categoria que desea listar.
+Para listar todas las categorías simplemente se realiza la petición a la url anterior, si se desea un registro específico se debe enviar el siguiente JSON:
 
 > **Nota**: Para mayor información sobre los posibles errores retornados de la petición consulte el [diccionario de errores](#id-diccionarioErrores).
 
@@ -327,14 +301,6 @@ Para listar todas las categorías simplemente se realiza la petición a la url a
 
 Ejemplo para creacion de categorias, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/create-category
-
-> **Nota**: la petición http para este método debe ser de tipo post.
-
-Al momento de realizar el envío de los datos para la creación de la categoría se debe tener en cuenta el [diccionario de datos de creación de categorias](#id-datosCreCat).
-
-Para realizar la creacion de categorias se debe tener en cuenta que se pueden crear uno o varios registros a partir de una sola petición a la API. 
-El siguiente modelo JSON aplica para la creación de 2 registros, si se desea agregar o insertar solamente un registro se debe modificar según la necesidad:
-
 ```json
     {
     "categories":[
@@ -347,20 +313,15 @@ El siguiente modelo JSON aplica para la creación de 2 registros, si se desea ag
                     "seoTitle": "Titulo SEO",
                     "seoDescription": "Descripción SEO",
                     "meta": "Meta"
-                },
-                {
-                    "parent_id": "1",
-                    "name": "Nombre de la categoría",
-                    "description": "Descripción",
-                    "shortDescription": "Descripción Corta",
-                    "sequence": "1",
-                    "seoTitle": "Titulo SEO",
-                    "seoDescription": "Descripción SEO",
-                    "meta": "Meta"
-                }    
+                }  
             ]
     }
 ```
+Al momento de realizar el envío de los datos para la creación de la categoría se debe tener en cuenta el [diccionario de datos de creación de categorias](#id-datosCreCat).
+
+Para realizar la creacion de categorias se debe tener en cuenta que se pueden crear uno o varios registros a partir de una sola petición a la API. 
+El siguiente modelo JSON aplica para la creación de 2 registros, si se desea agregar o insertar solamente un registro se debe modificar según la necesidad:
+
 > **Nota**: Para mayor información sobre los posibles errores retornados de la petición consulte el [diccionario de errores](#id-diccionarioErrores).
 
 <a name="id-actCat"></a>
