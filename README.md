@@ -5,7 +5,7 @@ La API V 0.1 ha sido desarrollada conforme a los últimos modelos de calidad apl
 
 *Current version: [v0.1]*
 
-[![Build Status]
+[![Build Status](https://travis-ci.org/rstacruz/flatdoc.svg?branch=gh-pages)](https://travis-ci.org/rstacruz/flatdoc)
 
 <a name="id-introduccion"></a>
 # I. Introducción
