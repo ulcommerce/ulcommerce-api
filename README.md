@@ -5,7 +5,7 @@ La API V 0.1 ha sido desarrollada conforme a los últimos modelos de calidad apl
 
 *Current version: [v0.1]*
 
-[![Build Status](https://travis-ci.org/rstacruz/flatdoc.svg?branch=gh-pages)](https://travis-ci.org/rstacruz/flatdoc)
+[![Build Status](https://travis-ci.org/stripe/stripe-php.svg?branch=master)](https://travis-ci.org/stripe/stripe-php)
 [![Code Coverage](https://coveralls.io/repos/stripe/stripe-php/badge.svg?branch=master)](https://coveralls.io/r/stripe/stripe-php?branch=master)
 
 <a name="id-introduccion"></a>
