@@ -205,7 +205,7 @@ Al momento de realizar el envío de los datos para la creación de productos se 
 
 Para realizar la creación de productos se debe tener en cuenta que se pueden crear uno o varios registros a partir de una sola petición a la API.
 
-<i><b>Recuerde que si existen combinaciones para el producto, cada una de estas debe tener un stock independiente; de lo contrario el stock debe aplicar al producto en general.</b></i>
+> **Nota**: Recuerde que si existen combinaciones para el producto, cada una de estas debe tener un stock independiente; de lo contrario el stock debe aplicar al producto en general.
 
 <a name="id-comPro"></a>
 ###  - Combinaciones de Productos
@@ -237,7 +237,7 @@ http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/create-product
 Dentro del objeto que se envía cuando se va a crear una nueva combinación debe haber un indice con la palabra reservada <strong>combinaciones</strong>.
 Por medio del indice <strong>combinaciones</strong> se crea un array bidimensional con la lista de los productos a combinar de acuerdo a la relación de tablas.
 
-<i><b>Recuerde que si existen combinaciones para el producto, cada una de estas debe tener un stock independiente; de lo contrario el stock debe aplicar al producto en general.</b></i>
+> **Nota**: Recuerde que si existen combinaciones para el producto, cada una de estas debe tener un stock independiente; de lo contrario el stock debe aplicar al producto en general.
 
 <a name="id-actPro"></a>
 ###  - Actualización de Productos
