@@ -107,26 +107,13 @@ http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/create-make
                     "seoTitle": "Titulo SEO",
                     "seoDescription": "Descripción SEO",
                     "meta": "Meta"
-                },
-                {
-                    "name": "Nombre de la Marca",
-                    "description": "Descripción",
-                    "shortDescription": "Descripción Corta",
-                    "sequence": "1",
-                    "seoTitle": "Titulo SEO",
-                    "seoDescription": "Descripción SEO",
-                    "meta": "Meta"
-                }    
+                }   
             ]
     }
 ```
 Al momento de realizar el envío de los datos para la creación de las marcas se debe tener en cuenta el [diccionario de datos de creación de marcas](#id-datosCreMar).
 
 Para realizar la creación de marcas se debe tener en cuenta que se pueden crear uno o varios registros a partir de una sola petición a la API. 
-
-El siguiente modelo JSON aplica para la creación de 2 registros, si se desea agregar o insertar solamente un registro se debe modificar según la necesidad:
-
-> **Nota**: Para mayor información sobre los posibles errores retornados de la petición consulte el [diccionario de errores](#id-diccionarioErrores).
 
 <a name="id-actMar"></a>
 #####Actualización de Marcas
