@@ -28,9 +28,7 @@ La siguiente tabla muestra la estructura general de la API:
 | Categorías  | update-category | post | Actualizar uno o varios registros. |
 | Categorías  | delete-category | delete | Eliminar un registro. |
 | Combinación | create-product  | post   | Crear uno o varios registros. |
-| Opciones    | list-option     | post   | Listar una opción en particular o todos los clientes. |
 | Opciones    | create-option   | post   | Crear una o varios opciones. |
-| Opciones    | update-option   | post   | Actualizar una o varias opciones. |
 | Opciones    | delete-option   | delete | Eliminar una Opción. |
 
 El esquema básico URI para todas las funciones de la API es: 
@@ -74,11 +72,9 @@ A continuación se muestran los códigos de estado que podrán ser retornados po
 
 <a name="id-metodos"></a>
 # II. Métodos Generales
-
 <a name="id-marcas"></a>
 ### Gestión de Marcas
 En esta sección de la documentación se especificarán los procesos que se deben realizar para listar, crear, actualizar y eliminar marcas de manera correcta por medio de la API.
-
 <a name="id-lisMar"></a>
 #####Listar Marcas de Productos 
 Ejemplo para listar marcas de productos, url de prueba:
