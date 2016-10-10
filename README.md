@@ -1,15 +1,11 @@
-ulcommerce API V0.1
+ulcommerce API V 0.1
 =======
 
-La Api V0.1 ha sido desarrollada conforme a los últimos modelos de calidad aplicando estándares apropiados de seguridad, rendimiento, compatibilidad, legibilidad entre otros.
-
-Getting started
----------------
-
-En esta guía se muestra cada uno de los componentes que posee la Api de Ulcommerce con su correspondiente configuración y correcto funcionamiento, la presente herramienta muestra en la sección lateral derecha la configuración de los datos de tipo <strong>Json</strong>.
+La Api V 0.1 ha sido desarrollada conforme a los últimos modelos de calidad aplicando estándares apropiados de seguridad, rendimiento, compatibilidad, legibilidad entre otros.
 
 <a name="id-introduccion"></a>
 # I. Introducción
+En esta guía se muestra cada uno de los componentes que posee la Api de Ulcommerce con su correspondiente configuración y correcto funcionamiento, la presente herramienta muestra en la sección lateral derecha la configuración de los datos de tipo <strong>Json</strong>.
 
 <a name="id-funcionamientoAPI"></a>
 ### 1. Funcionamiento de la API
