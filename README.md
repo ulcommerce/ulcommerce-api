@@ -80,10 +80,7 @@ En esta sección de la documentación se especificarán los procesos que se debe
 Ejemplo para listar marcas de productos, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/list-make
 
-> **Nota**: la petición http para este método debe ser de tipo post.
-
 Para listar todas las marcas simplemente se realiza la petición a la url anterior, si se desea una marca específica se debe enviar el siguiente JSON:
-
 ```json
     {
         "id": "numero"
