@@ -387,7 +387,7 @@ El Diccionario de Datos es la tabla que relaciona y describe las variables que d
 El Diccionario de Datos contiene las características de registro que se deben cumplir, como el tamaño de la variable, el tipo de dato y si es requerido o no su registro. También contiene la validación realizada por la API para determinar si el dato registrado es correcto.
 
 <a name="id-datosCreMar"></a>
-### Creación de Marcas
+###  - Creación de Marcas
 
 | Nombre Campo | Descripción | Requerido | Tipo Dato | Tamaño |
 |----|----|----|----|----|
