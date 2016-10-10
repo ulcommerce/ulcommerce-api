@@ -78,6 +78,9 @@ A continuación se muestran los códigos de estado que podrán ser retornados po
 <a name="id-metodos"></a>
 # II. Métodos Generales
 
+Basic
+-----
+
 <a name="id-marcas"></a>
 ### Gestión de Marcas
 En esta sección de la documentación se especificarán los procesos que se deben realizar para listar, crear, actualizar y eliminar marcas de manera correcta por medio de la API.
