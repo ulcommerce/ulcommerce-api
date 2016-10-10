@@ -178,15 +178,6 @@ Para listar todos los productos simplemente se realiza la petición a la url ant
 
 Ejemplo para creación de productos, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/create-product
-
-> **Nota**: la petición http para este método debe ser de tipo post.
-
-Al momento de realizar el envío de los datos para la creación de productos se debe tener en cuenta el [diccionario de datos de creación de productos ](#id-datosCrePro).
-
-Para realizar la creación de productos se debe tener en cuenta que se pueden crear uno o varios registros a partir de una sola petición a la API.
-
-El siguiente modelo JSON aplica para la creación de 2 registros, si se desea agregar o insertar solamente un registro se debe modificar según la necesidad:
-
 ```json
     {
     "products":[
@@ -209,6 +200,11 @@ El siguiente modelo JSON aplica para la creación de 2 registros, si se desea ag
             ]
     }
 ```
+Al momento de realizar el envío de los datos para la creación de productos se debe tener en cuenta el [diccionario de datos de creación de productos ](#id-datosCrePro).
+
+Para realizar la creación de productos se debe tener en cuenta que se pueden crear uno o varios registros a partir de una sola petición a la API.
+
+El siguiente modelo JSON aplica para la creación de 2 registros, si se desea agregar o insertar solamente un registro se debe modificar según la necesidad:
 
 <a name="id-comPro"></a>
 #####Combinaciones de Productos
