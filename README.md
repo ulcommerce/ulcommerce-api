@@ -324,6 +324,7 @@ El siguiente modelo JSON aplica para la creación de 2 registros, si se desea ag
 ###  - Actualización de Categorías
 
 Ejemplo para actualización de categorias, url de prueba:
+http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/update-category
 ```json
     {
     "categories":[
@@ -341,8 +342,6 @@ Ejemplo para actualización de categorias, url de prueba:
             ]
     }
 ```
-http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/update-category
-
 Al momento de realizar el envío de los datos para la actualización de la categoría se debe tener en cuenta el [diccionario de datos de actualización de categorías](#id-datosActCat).
 
 Para realizar la actualización de categorías se debe tener en cuenta que se pueden crear uno o varios registros a partir de una sola petición a la API. 
