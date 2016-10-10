@@ -193,7 +193,6 @@ http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/create-product
 			    "salePrice": "120",
 			    "stock": "10",
 			    "visibility": "1",
-			    "enabled": "1",
 			    "seoTitle": "Titulo posicionamiento Web",
 			    "seoDescription": "Descripción Posicionamiento Web",
 			    "make_id": "15"
