@@ -1,3 +1,4 @@
+!https://coveralls.io/repos/github/ulcommerce/ulcommerce-api/badge.svg(Coverage Status)!:https://coveralls.io/github/ulcommerce/ulcommerce-api
 ulcommerce API V 0.1
 =======
 
