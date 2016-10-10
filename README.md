@@ -83,7 +83,7 @@ A continuación se muestran los códigos de estado que podrán ser retornados po
 En esta sección de la documentación se especificarán los procesos que se deben realizar para listar, crear, actualizar y eliminar marcas de manera correcta por medio de la API.
 
 <a name="id-lisMar"></a>
-###Listar Marcas de Productos 
+###Listado de Marcas 
 Ejemplo para listar marcas de productos, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/list-make
 
@@ -98,7 +98,7 @@ Para listar todas las marcas simplemente se realiza la petición a la url anteri
 > **Nota:**" Número" representa el id de la marca que desea listar.
 
 <a name="id-creMar"></a>
-#####Creación de Marcas
+###Creación de Marcas
 
 Ejemplo para creación de marcas, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/create-make
@@ -120,7 +120,7 @@ http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/create-make
 Al momento de realizar el envío de los datos para la creación de las marcas se debe tener en cuenta el [diccionario de datos de creación de marcas](#id-datosCreMar).
 
 <a name="id-actMar"></a>
-#####Actualización de Marcas
+###Actualización de Marcas
 
 Ejemplo para actualización de marcas, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/update-make
@@ -145,7 +145,7 @@ Al momento de realizar el envío de los datos para la actualización de las marc
 En este método se envían solamente los datos que desea actualizar en el registro (no es necesario enviar todos los datos nuevamente en la petición). 
 
 <a name="id-eliMar"></a>
-#####Eliminación de Marcas
+###Eliminación de Marcas
 
 Ejemplo de eliminación de marcas, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/delete-make
@@ -160,10 +160,10 @@ Para eliminar una marca se debe enviar el id de la marca, ejemplo JSON:
 > **Nota:**"Número" representa el id de la marca que desea eliminar.
 
 <a name="id-productos"></a>
-###Gestión de Productos
+##Gestión de Productos
 En esta seccion de la documentacion se especificaran los procesos que se deben realizar para listar, crear, actualizar y eliminar productos de manera correcta por medio de la API.
 <a name="id-lisPro"></a>
-#####Listar Productos
+###Listado de Productos
 
 Ejemplo para listar productos, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/list-product
@@ -179,7 +179,7 @@ Para listar todos los productos simplemente se realiza la petición a la url ant
 > **Nota**: Para mayor información sobre los posibles errores retornados de la petición consulte el [diccionario de errores](#id-diccionarioErrores).
 
 <a name="id-crePro"></a>
-#####Creación de Productos
+###Creación de Productos
 
 Ejemplo para creación de productos, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/create-product
@@ -208,7 +208,7 @@ Al momento de realizar el envío de los datos para la creación de productos se 
 Para realizar la creación de productos se debe tener en cuenta que se pueden crear uno o varios registros a partir de una sola petición a la API.
 
 <a name="id-comPro"></a>
-#####Combinaciones de Productos
+###Combinaciones de Productos
 Es posible realizar la combinación personalizada de productos segun sus medidas, colores, precio, codigo SKU. de esta forma se organiza de una manera más óptima el stock y es posible llevar un mejor control sobre los productos.
 ```json
     {
@@ -238,7 +238,7 @@ Dentro del objeto que se envía cuando se va a crear una nueva combinación debe
 Por medio del indice <strong>combinaciones</strong> se crea un array bidimensional con la lista de los productos a combinar de acuerdo a la relación de tablas.
 
 <a name="id-actPro"></a>
-#####Actualización de Productos
+###Actualización de Productos
 
 Ejemplo para actualización de productos, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/update-product
@@ -268,7 +268,7 @@ En este método se envían solamente los datos que desea actualizar en el regist
 El siguiente modelo JSON aplica para la actualización de 2 registros, si se desea actualizar un registro o varios se debe modificar según la necesidad:
 
 <a name="id-eliPro"></a>
-#####Eliminación de Productos
+###Eliminación de Productos
 
 Ejemplo de eliminación de productos, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/delete-product
@@ -280,10 +280,10 @@ http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/delete-product
 Para eliminar un producto se debe enviar el id del producto, ejemplo JSON:
 
 <a name="id-categorias"></a>
-### Gestion de Categorias
+## Gestion de Categorias
 En esta sección de la documentación se especificarán los procesos que se deben realizar para listar, crear, actualizar y eliminar categorías de manera correcta por medio de la API.
 <a name="id-lisCat"></a>
-#####Listar Categorias
+###Listado de Categorias
 
 Ejemplo para listar categorias, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/list-category
@@ -297,7 +297,7 @@ Para listar todas las categorías simplemente se realiza la petición a la url a
 > **Nota**: Para mayor información sobre los posibles errores retornados de la petición consulte el [diccionario de errores](#id-diccionarioErrores).
 
 <a name="id-creCat"></a>
-#####Creacion de Categorias
+###Creacion de Categorias
 
 Ejemplo para creacion de categorias, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/create-category
@@ -325,7 +325,7 @@ El siguiente modelo JSON aplica para la creación de 2 registros, si se desea ag
 > **Nota**: Para mayor información sobre los posibles errores retornados de la petición consulte el [diccionario de errores](#id-diccionarioErrores).
 
 <a name="id-actCat"></a>
-#####Actualización de Categorías
+###Actualización de Categorías
 
 Ejemplo para actualización de categorias, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/update-category
@@ -352,26 +352,13 @@ El siguiente modelo JSON aplica para la creación de 2 registros, si se desea ac
                     "seoTitle": "Titulo SEO",
                     "seoDescription": "Descripción SEO",
                     "meta": "Meta"
-                },
-                {
-                    "id": "3",
-                    "parent_id": "1",
-                    "name": "Nombre de la categoria",
-                    "description": "Descripción",
-                    "shortDescription": "Descripción Corta",
-                    "sequence": "1",
-                    "seoTitle": "Titulo SEO",
-                    "seoDescription": "Descripción SEO",
-                    "meta": "Meta"
-                }    
+                }  
             ]
     }
 ```
 
-> **Nota**: Para mayor información sobre los posibles errores retornados de la petición consulte el [diccionario de errores](#id-diccionarioErrores).
-
 <a name="id-eliCat"></a>
-#####Eliminación de Categorías
+###Eliminación de Categorías
 
 Ejemplo de eliminación de categorías, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/delete-category
@@ -390,7 +377,7 @@ Para eliminar una categoría se debe enviar el id de la categoría, ejemplo JSON
 > **Nota**: Para mayor información sobre los posibles errores retornados de la peticion consulte el [diccionario de errores](#id-diccionarioErrores).
 
 <a name="id-opciones"></a>
-### Gestión de Opciones
+## Gestión de Opciones
 En esta sección de la documentación se especificarán cada una de las opciones disponibles para configurar todas las variables que afectan la tienda.
 
 Esta opción permite crear de forma dinámica las opciones necesarias para el buen funcionamiento y desarrollo de la tienda, no hay restricción de ningún tipo.
@@ -402,13 +389,13 @@ Dentro del objeto que se envía cuando se va a crear una nueva opción debe habe
 <a name="id-anexos"></a>
 # III. Anexos
 <a name="id-diccionarioDatos"></a>
-### 1. Diccionarios de datos
+## 1. Diccionarios de datos
 El Diccionario de Datos es la tabla que relaciona y describe las variables que deben ser registradas en la API cada por el usuario para cada uno de los procesos.
 
 El Diccionario de Datos contiene las características de registro que se deben cumplir, como el tamaño de la variable, el tipo de dato y si es requerido o no su registro. También contiene la validación realizada por la API para determinar si el dato registrado es correcto.
 
 <a name="id-datosCreMar"></a>
-##### Diccionario de datos de Creación de Marcas
+### Diccionario de datos de Creación de Marcas
 
 | Nombre Campo | Descripción | Requerido | Tipo Dato | Tamaño |
 |----|----|----|----|----|
@@ -421,7 +408,7 @@ El Diccionario de Datos contiene las características de registro que se deben c
 | meta | Metadatos para Seo | N | Text | N/A |
 
 <a name="id-datosActMar"></a>
-##### Diccionario de datos de Actualización de Marcas
+### Diccionario de datos de Actualización de Marcas
 
 | Nombre Campo | Descripción | Requerido | Tipo Dato | Tamaño |
 |----|----|----|----|----|
@@ -435,7 +422,7 @@ El Diccionario de Datos contiene las características de registro que se deben c
 | meta | Metadatos para Seo | N | Text | N/A |
 
 <a name="id-datosCrePro"></a>
-##### Diccionario de datos de Creación de Productos
+### Diccionario de datos de Creación de Productos
 
 | Nombre Campo | Descripción | Requerido | Tipo Dato | Tamaño |
 |----|----|----|----|----|
@@ -451,7 +438,7 @@ El Diccionario de Datos contiene las características de registro que se deben c
 | make_id | Id de la marca | S | Integer | N/A |
 
 <a name="id-datosActPro"></a>
-##### Diccionario de datos de Actualización de Productos
+### Diccionario de datos de Actualización de Productos
 
 | Nombre Campo | Descripción | Requerido | Tipo Dato | Tamaño |
 |----|----|----|----|----|
@@ -468,7 +455,7 @@ El Diccionario de Datos contiene las características de registro que se deben c
 | make_id | Id de la marca | N | Integer | N/A |
 
 <a name="id-datosCreCat"></a>
-##### Diccionario de datos de Creación de Categorías
+### Diccionario de datos de Creación de Categorías
 
 | Nombre Campo | Descripción | Requerido | Tipo Dato | Tamaño |
 |----|----|----|----|----|
@@ -482,7 +469,7 @@ El Diccionario de Datos contiene las características de registro que se deben c
 | meta | -- | N | Text | N/A |
 
 <a name="id-datosActCat"></a>
-##### Diccionario de datos de Actualización de Categorías
+### Diccionario de datos de Actualización de Categorías
 
 | Nombre Campo | Descripción | Requerido | Tipo Dato | Tamaño |
 |----|----|----|----|----|
@@ -497,7 +484,7 @@ El Diccionario de Datos contiene las características de registro que se deben c
 | meta | -- | N | Text | N/A |
 
 <a name="id-diccionarioErrores"></a>
-### 2. Diccionarios de Errores
+## 2. Diccionarios de Errores
 El Diccionario de Errores es la tabla que relaciona y describe los errores que genera la API cuando alguna variable no ha sido registrada de forma correcta en alguno de los metodos.
 
 El Diccionario de Errores contiene la descripción del error y su posible solución.
@@ -511,7 +498,7 @@ El Diccionario de Errores contiene la descripción del error y su posible soluci
 | The [item_externo] is incorrect. | Este error se presenta en el momento en que se desea asociar la creación o actualización de un item con un dato perteneciente a otra tabla. Se debe realizar laverificaciónn de este item y comprobar que realmente exista en la tabla de referencia. |
 
 <a name="id-glosario"></a>
-### 3. Glosario
+## 3. Glosario
 - **Diccionario de Datos:** El Diccionario de Datos es la tabla que relaciona y describe las variables que deben ser registradas en la API cada por el usuario para cada uno de los procesos. El Diccionario de Datos contiene las características de registro que se deben cumplir, como el tamaño de la variable, el tipo de dato y si es requerido o no su registro. También contiene la validación realizada por la API para determinar si el dato registrado es correcto.
 - **Diccionario de Errores:** El Diccionario de Errores es la tabla que relaciona y describe los errores que genera la API cuando alguna variable no ha sido registrada de forma correcta en alguno de los métodos. El Diccionario de Errores contiene la descripción del error, la variable al que pertenece y su solución.
 - **Marcas:**
