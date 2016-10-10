@@ -237,6 +237,11 @@ Dentro del objeto que se envía cuando se va a crear una nueva combinación debe
 Por medio del indice <strong>combinaciones</strong> se crea un array bidimensional con la lista de los productos a combinar de acuerdo a la relación de tablas.
 
 <pre>Recuerde que si existen combinaciones para el producto, cada una de estas debe tener un stock independiente.</pre>
+
+``` html
+<strong>Hola, mundo</strong>
+```
+
 <a name="id-actPro"></a>
 ###  - Actualización de Productos
 
