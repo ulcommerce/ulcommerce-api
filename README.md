@@ -75,6 +75,9 @@ A continuación se muestran los códigos de estado que podrán ser retornados po
 | 404 | Not Found, recurso o método no encontrado. |
 | 500 | Internal Server.  |
 
+Customizing
+===========
+
 <a name="id-metodos"></a>
 # II. Métodos Generales
 <a name="id-marcas"></a>
