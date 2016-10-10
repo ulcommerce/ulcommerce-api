@@ -354,14 +354,13 @@ El siguiente modelo JSON aplica para la creación de 2 registros, si se desea ac
 
 Ejemplo de eliminación de categorías, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/delete-category
-
-Para eliminar una categoría se debe enviar el id de la categoría, ejemplo JSON:
-
 ```json
 	{
 	    "id": "numero"
 	}
 ```
+Para eliminar una categoría se debe enviar el id de la categoría, ejemplo JSON:
+
 > **Nota:** "numero" representa el id de la categoria que desea eliminar.
 
 <a name="id-opciones"></a>
