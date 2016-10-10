@@ -83,7 +83,7 @@ A continuación se muestran los códigos de estado que podrán ser retornados po
 En esta sección de la documentación se especificarán los procesos que se deben realizar para listar, crear, actualizar y eliminar marcas de manera correcta por medio de la API.
 
 <a name="id-lisMar"></a>
-###Listar Marcas de Productos 
+####Listar Marcas de Productos 
 Ejemplo para listar marcas de productos, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/list-make
 
