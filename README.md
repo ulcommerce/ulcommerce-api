@@ -212,8 +212,6 @@ Es posible realizar la combinación personalizada de productos segun sus medidas
 				{
 				    "idCombination": "1",
 				    "stock": "Nombre del Producto",
-				    "width": "Descripción",
-				    "height": "Descripción corta del producto",
 				    "weight": "100",
 				    "price": "120",
 				    "salePrice": "50.000",
@@ -263,8 +261,6 @@ En este método se envían solamente los datos que desea actualizar en el regist
 
 El siguiente modelo JSON aplica para la actualización de 2 registros, si se desea actualizar un registro o varios se debe modificar según la necesidad:
 
-> **Nota**: Para mayor información sobre los posibles errores retornados de la petición consulte el [diccionario de errores](#id-diccionarioErrores).
-
 <a name="id-eliPro"></a>
 #####Eliminación de Productos
 
@@ -276,8 +272,6 @@ http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/delete-product
 	}
 ```
 Para eliminar un producto se debe enviar el id del producto, ejemplo JSON:
-
-> **Nota**: Para mayor información sobre los posibles errores retornados de la petición consulte el [diccionario de errores](#id-diccionarioErrores).
 
 <a name="id-categorias"></a>
 ### Gestion de Categorias
