@@ -107,7 +107,6 @@ http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/create-make
                     "seoTitle": "Titulo SEO",
                     "seoDescription": "Descripción SEO",
                     "visibility": "1",
-		    	"image": "url-to-image",
                 }   
             ]
     }
@@ -131,7 +130,6 @@ http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/update-make
                     "seoTitle": "Titulo SEO",
                     "seoDescription": "Descripción SEO",
                     "visibility": "1",
-		    	"image": "url-to-image",
                 }  
             ]
     }
