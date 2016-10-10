@@ -78,6 +78,7 @@ A continuación se muestran los códigos de estado que podrán ser retornados po
 II. Métodos Generales
 ===========
 Gestión de Marcas
+
 En esta sección de la documentación se especificarán los procesos que se deben realizar para listar, crear, actualizar y eliminar marcas de manera correcta por medio de la API.
 -----
 ### Listar Marcas de Productos
