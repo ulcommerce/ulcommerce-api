@@ -83,7 +83,7 @@ A continuación se muestran los códigos de estado que podrán ser retornados po
 En esta sección de la documentación se especificarán los procesos que se deben realizar para listar, crear, actualizar y eliminar marcas de manera correcta por medio de la API.
 
 <a name="id-lisMar"></a>
-###Listado de Marcas 
+###  - Listado de Marcas 
 Ejemplo para listar marcas de productos, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/list-make
 
@@ -98,7 +98,7 @@ Para listar todas las marcas simplemente se realiza la petición a la url anteri
 > **Nota:**" Número" representa el id de la marca que desea listar.
 
 <a name="id-creMar"></a>
-###Creación de Marcas
+###  - Creación de Marcas
 
 Ejemplo para creación de marcas, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/create-make
@@ -120,7 +120,7 @@ http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/create-make
 Al momento de realizar el envío de los datos para la creación de las marcas se debe tener en cuenta el [diccionario de datos de creación de marcas](#id-datosCreMar).
 
 <a name="id-actMar"></a>
-###Actualización de Marcas
+###  - Actualización de Marcas
 
 Ejemplo para actualización de marcas, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/update-make
@@ -145,7 +145,7 @@ Al momento de realizar el envío de los datos para la actualización de las marc
 En este método se envían solamente los datos que desea actualizar en el registro (no es necesario enviar todos los datos nuevamente en la petición). 
 
 <a name="id-eliMar"></a>
-###Eliminación de Marcas
+###  - Eliminación de Marcas
 
 Ejemplo de eliminación de marcas, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/delete-make
@@ -176,10 +176,8 @@ Para listar todos los productos simplemente se realiza la petición a la url ant
 
 > **Nota:**"Número" representa el id del producto que desea listar.
 
-> **Nota**: Para mayor información sobre los posibles errores retornados de la petición consulte el [diccionario de errores](#id-diccionarioErrores).
-
 <a name="id-crePro"></a>
-###Creación de Productos
+###  - Creación de Productos
 
 Ejemplo para creación de productos, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/create-product
@@ -208,7 +206,7 @@ Al momento de realizar el envío de los datos para la creación de productos se 
 Para realizar la creación de productos se debe tener en cuenta que se pueden crear uno o varios registros a partir de una sola petición a la API.
 
 <a name="id-comPro"></a>
-###Combinaciones de Productos
+###  - Combinaciones de Productos
 Es posible realizar la combinación personalizada de productos segun sus medidas, colores, precio, codigo SKU. de esta forma se organiza de una manera más óptima el stock y es posible llevar un mejor control sobre los productos.
 ```json
     {
@@ -238,7 +236,7 @@ Dentro del objeto que se envía cuando se va a crear una nueva combinación debe
 Por medio del indice <strong>combinaciones</strong> se crea un array bidimensional con la lista de los productos a combinar de acuerdo a la relación de tablas.
 
 <a name="id-actPro"></a>
-###Actualización de Productos
+###  - Actualización de Productos
 
 Ejemplo para actualización de productos, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/update-product
@@ -268,7 +266,7 @@ En este método se envían solamente los datos que desea actualizar en el regist
 El siguiente modelo JSON aplica para la actualización de 2 registros, si se desea actualizar un registro o varios se debe modificar según la necesidad:
 
 <a name="id-eliPro"></a>
-###Eliminación de Productos
+###  - Eliminación de Productos
 
 Ejemplo de eliminación de productos, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/delete-product
@@ -283,7 +281,7 @@ Para eliminar un producto se debe enviar el id del producto, ejemplo JSON:
 ## Gestion de Categorias
 En esta sección de la documentación se especificarán los procesos que se deben realizar para listar, crear, actualizar y eliminar categorías de manera correcta por medio de la API.
 <a name="id-lisCat"></a>
-###Listado de Categorias
+###  - Listado de Categorias
 
 Ejemplo para listar categorias, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/list-category
@@ -297,7 +295,7 @@ Para listar todas las categorías simplemente se realiza la petición a la url a
 > **Nota**: Para mayor información sobre los posibles errores retornados de la petición consulte el [diccionario de errores](#id-diccionarioErrores).
 
 <a name="id-creCat"></a>
-###Creacion de Categorias
+###  - Creacion de Categorias
 
 Ejemplo para creacion de categorias, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/create-category
@@ -323,7 +321,7 @@ Para realizar la creacion de categorias se debe tener en cuenta que se pueden cr
 El siguiente modelo JSON aplica para la creación de 2 registros, si se desea agregar o insertar solamente un registro se debe modificar según la necesidad:
 
 <a name="id-actCat"></a>
-###Actualización de Categorías
+###  - Actualización de Categorías
 
 Ejemplo para actualización de categorias, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/update-category
@@ -354,7 +352,7 @@ El siguiente modelo JSON aplica para la creación de 2 registros, si se desea ac
 ```
 
 <a name="id-eliCat"></a>
-###Eliminación de Categorías
+###  - Eliminación de Categorías
 
 Ejemplo de eliminación de categorías, url de prueba:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/delete-category
