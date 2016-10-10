@@ -301,18 +301,9 @@ Es posible realizar la combinación personalizada de productos segun sus medidas
 ```json
     {
     "products":[
-                {
-		    "combinaciones": 
-                }   
-            ]
-    }
-```
-```json
-    {
-    "products":[
-                {
-		    "combinaciones": [
-		    	{
+	{
+	    "combinaciones": [
+			{
 			    "idCombination": "1",
 			    "stock": "Nombre del Producto",
 			    "width": "Descripción",
@@ -325,15 +316,15 @@ Es posible realizar la combinación personalizada de productos segun sus medidas
 			    "product_id":"id-producto",
 			}
 		    ]
-                }   
-            ]
-    	}
+		}   
+	    ]
+}
 ```
 La url de prueba para la creacion es una combinación es la siguiente:
 
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/create-product
 
-Dentro del objeto que se envía cuando se va a crear una nueva combinación debe haber un indice con la palabra reservada <strong>combinaciones</strong>
+Dentro del objeto que se envía cuando se va a crear una nueva combinación debe haber un indice con la palabra reservada <strong>combinaciones</strong>.
 Por medio del indice <strong>combinaciones</strong> se crea un array bidimensional con la lista de los productos a combinar de acuerdo a la relación de tablas.
 
 <a name="id-actPro"></a>
@@ -539,22 +530,9 @@ Para eliminar una categoría se debe enviar el id de la categoría, ejemplo JSON
 En esta sección de la documentación se especificarán cada una de las opciones disponibles para configurar todas las variables que afectan la tienda.
 
 Esta opción permite crear de forma dinámica las opciones necesarias para el buen funcionamiento y desarrollo de la tienda, no hay restricción de ningún tipo.
-
-Tomando como referencia la opción de colores, se muestra el procedimiento necesario para crear una nueva opción personalizada.
-#### - Opción de Colores.
-Para acceder al menú de estas herramientas es necesario ingresar a la siguiente ruta en la parte lateral izquierda.
-
-Catálogo - Opciones.
-
-Dentro de este nuevo menú ubicado en el centro de la pantalla se visualiza una lista desplegable con las siguientes opciones:
-<ul>
-  <li>Colors</li>
-  <li>Checklist</li>
-  <li>Radiolist</li>
-  <li>Droplist</li>
-</ul>
-Junto a esta lista desplegable se encuentra un botón <strong>AGREGAR OPCIÓN</strong>, que permite efectivamente crear la opción seleccionada en la lista desplegable; una vez creada la nueva opción aparecerá en la lista de abajo
-
+La url de prueba para la creacion de una opción es la siguiente:
+http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/create-product
+Dentro del objeto que se envía cuando se va a crear una nueva opción debe haber un indice con la palabra reservada <strong>create_option</strong> con un valor 1, de esta manera la Api reconoce que se quiere crear una nueva opción.
 <a name="id-anexos"></a>
 # III. Anexos
 <a name="id-diccionarioDatos"></a>
