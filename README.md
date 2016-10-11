@@ -302,7 +302,7 @@ http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/list-category
 ```
 Para listar todas las categorías simplemente se realiza la petición a la url anterior, si se desea un registro específico se debe enviar el siguiente JSON:
 
-> **NOTAa**: Para mayor información sobre los posibles errores retornados de la petición consulte el [diccionario de errores](#id-diccionarioErrores).
+> **NOTA**: Para mayor información sobre los posibles errores retornados de la petición consulte el [diccionario de errores](#id-diccionarioErrores).
 
 <a name="id-creCat"></a>
 ###  - Creacion de Categorias
