@@ -15,7 +15,7 @@ La API de ulcommerce ha sido desarrollada con el fin de brindar acceso total a n
 
 <a name="id-introduccion"></a>
 # I. Introducción
-En esta guía se muestra cada uno de los componentes que posee la API de ulcommerce con su correspondiente configuración y correcto funcionamiento, la presente herramienta muestra en la sección lateral derecha la configuración de los datos de tipo <strong>`JSON`</strong>.
+En esta guía se muestra cada uno de los componentes que posee la API de ulcommerce con su correspondiente configuración y correcto funcionamiento, la presente herramienta muestra en la sección lateral derecha la configuración de los datos de tipo `JSON`.
 
 <a name="id-funcionamientoAPI"></a>
 ## 1. Funcionamiento de la API
