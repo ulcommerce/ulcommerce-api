@@ -15,11 +15,11 @@ La API de ulcommerce ha sido desarrollada con el fin de brindar acceso total a n
 
 <a name="id-introduccion"></a>
 # I. Introducción
-En esta guía se muestra cada uno de los componentes que posee la API de ulcommerce con su correspondiente configuración y correcto funcionamiento, la presente herramienta muestra en la sección lateral derecha la configuración de los datos de tipo <strong>JSON</strong>.
+En esta guía se muestra cada uno de los componentes que posee la API de ulcommerce con su correspondiente configuración y correcto funcionamiento, la presente herramienta muestra en la sección lateral derecha la configuración de los datos de tipo <strong>`JSON`</strong>.
 
 <a name="id-funcionamientoAPI"></a>
 ## 1. Funcionamiento de la API
-La API de ulcommerce plus es una API REST que utiliza los métodos HTTP para listar (POST), crear (POST), actualizar (POST) o eliminar (DELETE) marcas, productos o categorías de forma individual o masiva. 
+La API de ulcommerce plus es una API REST que utiliza los métodos HTTP para listar <strong>`POST`</strong>, crear <strong>`POST`</strong>, actualizar <strong>`POST`</strong> o eliminar <strong>`DELETE`</strong> marcas, productos o categorías de forma individual o masiva. 
 
 La siguiente tabla muestra la estructura general de la API:
 
