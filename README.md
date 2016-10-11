@@ -51,7 +51,7 @@ Especificaciones de los parámetros de la URL:
 - **token:** Identificador de seguridad para la tienda, mayor información consultar el apartado de [Autenticación](#id-autenticacion)
 - **metodo:** Método que se utilizará para procesar la información de la petición.
 
-**NOTA:**" Las peticiones y las respuestas se envían con formato JSON.
+**NOTA:** Las peticiones y las respuestas se envían con formato JSON.
 
 
 <a name="id-autenticacion"></a>
@@ -102,7 +102,7 @@ http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/list-make
 
 Para listar todas las marcas simplemente se realiza la petición a la url anterior ( Sin pasar ningún parametro ), si se desea una marca específica se debe enviar el siguiente JSON:
 
-> **Nota:**" Número" representa el id de la marca que desea listar.
+> **NOTA:** "Número" representa el id de la marca que desea listar.
 
 <a name="id-creMar"></a>
 ###  - Creación de Marcas
@@ -164,7 +164,7 @@ Para eliminar una marca se debe enviar el id de la marca, ejemplo JSON:
 	    "id": "numero"
 	}
 ```
-> **Nota:**"Número" representa el id de la marca que desea eliminar.
+> **NOTA:** "Número" representa el id de la marca que desea eliminar.
 
 <a name="id-productos"></a>
 ## 2. Gestión de Productos
@@ -181,7 +181,7 @@ http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/list-product
 ```
 Para listar todos los productos simplemente se realiza la petición a la url anterior, si se desea un registro específico se debe enviar el siguiente JSON:
 
-> **Nota:**"Número" representa el id del producto que desea listar.
+> **NOTA:** "Número" representa el id del producto que desea listar.
 
 <a name="id-crePro"></a>
 ###  - Creación de Productos
@@ -211,7 +211,7 @@ Al momento de realizar el envío de los datos para la creación de productos se 
 
 Para realizar la creación de productos se debe tener en cuenta que se pueden crear uno o varios registros a partir de una sola petición a la API.
 
-> **Nota**: Recuerde que si existen combinaciones para el producto, cada una de estas debe tener un stock independiente; de lo contrario el stock debe aplicar al producto en general.
+> **NOTA**: Recuerde que si existen combinaciones para el producto, cada una de estas debe tener un stock independiente; de lo contrario el stock debe aplicar al producto en general.
 
 <a name="id-comPro"></a>
 ###  - Combinaciones de Productos
@@ -243,7 +243,7 @@ http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/create-product
 Dentro del objeto que se envía cuando se va a crear una nueva combinación debe haber un indice con la palabra reservada <strong>combinaciones</strong>.
 Por medio del indice <strong>combinaciones</strong> se crea un array bidimensional con la lista de los productos a combinar de acuerdo a la relación de tablas.
 
-> **Nota**: Recuerde que si existen combinaciones para el producto, cada una de estas debe tener un stock independiente; de lo contrario el stock debe aplicar al producto en general.
+> **NOTA**: Recuerde que si existen combinaciones para el producto, cada una de estas debe tener un stock independiente; de lo contrario el stock debe aplicar al producto en general.
 
 <a name="id-actPro"></a>
 ###  - Actualización de Productos
@@ -302,7 +302,7 @@ http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/list-category
 ```
 Para listar todas las categorías simplemente se realiza la petición a la url anterior, si se desea un registro específico se debe enviar el siguiente JSON:
 
-> **Nota**: Para mayor información sobre los posibles errores retornados de la petición consulte el [diccionario de errores](#id-diccionarioErrores).
+> **NOTAa**: Para mayor información sobre los posibles errores retornados de la petición consulte el [diccionario de errores](#id-diccionarioErrores).
 
 <a name="id-creCat"></a>
 ###  - Creacion de Categorias
@@ -371,7 +371,7 @@ http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/delete-category
 ```
 Para eliminar una categoría se debe enviar el id de la categoría, ejemplo JSON:
 
-> **Nota:** "numero" representa el id de la categoria que desea eliminar.
+> **NOTA:** "numero" representa el id de la categoria que desea eliminar.
 
 <a name="id-opciones"></a>
 ## 4. Gestión de Opciones
