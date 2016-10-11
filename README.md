@@ -1,8 +1,13 @@
 ulcommerce API v0.1
 =======
 
-La API V 0.1 ha sido desarrollada conforme a los últimos modelos de calidad aplicando estándares apropiados de seguridad, rendimiento, compatibilidad, legibilidad entre otros.
+La API de ulcommerce ha sido desarrollada con el fin de brindar acceso total a nuestros desarrolladores para que puedan conectar sus aplicaciones o herramientas de terceros a su tienda online.
 
+ * Acceso total a la tienda.
+ * API REST.
+ * Datos tipo JSON.
+ * Métodos HTTP
+ 
 *Versión Actual: v0.1*
 
 [![Build Status](https://travis-ci.org/stripe/stripe-php.svg?branch=master)](https://travis-ci.org/stripe/stripe-php)
@@ -10,7 +15,7 @@ La API V 0.1 ha sido desarrollada conforme a los últimos modelos de calidad apl
 
 <a name="id-introduccion"></a>
 # I. Introducción
-En esta guía se muestra cada uno de los componentes que posee la API de Ulcommerce Plus con su correspondiente configuración y correcto funcionamiento, la presente herramienta muestra en la sección lateral derecha la configuración de los datos de tipo <strong>Json</strong>.
+En esta guía se muestra cada uno de los componentes que posee la API de ulcommerce con su correspondiente configuración y correcto funcionamiento, la presente herramienta muestra en la sección lateral derecha la configuración de los datos de tipo <strong>JSON</strong>.
 
 <a name="id-funcionamientoAPI"></a>
 ## 1. Funcionamiento de la API
