@@ -1,9 +1,9 @@
-ulcommerce API V 0.1
+ulcommerce API v0.1
 =======
 
 La API V 0.1 ha sido desarrollada conforme a los últimos modelos de calidad aplicando estándares apropiados de seguridad, rendimiento, compatibilidad, legibilidad entre otros.
 
-*Current version: [v0.1]*
+*Versión Actual: v0.1*
 
 [![Build Status](https://travis-ci.org/stripe/stripe-php.svg?branch=master)](https://travis-ci.org/stripe/stripe-php)
 [![Coverage Status](https://coveralls.io/repos/github/ulcommerce/ulcommerce-api/badge.svg?branch=master)](https://coveralls.io/github/ulcommerce/ulcommerce-api?branch=master)
