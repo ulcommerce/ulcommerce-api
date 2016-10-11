@@ -15,11 +15,11 @@ La API de ulcommerce ha sido desarrollada con el fin de brindar acceso total a n
 
 <a name="id-introduccion"></a>
 # I. Introducción
-En esta guía se muestra cada uno de los componentes que posee la API de ulcommerce con su correspondiente configuración y correcto funcionamiento, la presente herramienta muestra en la sección lateral derecha la configuración de los datos de tipo `JSON`.
+En esta guía se muestra cada uno de los componentes que posee la API de ulcommerce con su correspondiente configuración y funciones, en la documentación se muestra en la lateral derecha la configuración de los datos de tipo `JSON`.
 
 <a name="id-funcionamientoAPI"></a>
 ## 1. Funcionamiento de la API
-La API de ulcommerce plus es una API REST que utiliza los métodos HTTP para listar <strong>`POST`</strong>, crear <strong>`POST`</strong>, actualizar <strong>`POST`</strong> o eliminar <strong>`DELETE`</strong> marcas, productos o categorías de forma individual o masiva. 
+La API de ulcommerce es una <strong>API REST</strong> que utiliza los métodos HTTP para listar `POST`, crear `POST`, actualizar `POST` o eliminar `DELETE` marcas, productos o categorías de forma individual o masiva. 
 
 La siguiente tabla muestra la estructura general de la API:
 
@@ -41,14 +41,14 @@ La siguiente tabla muestra la estructura general de la API:
 | Opciones    | create-option   | post   | Crear una o varios opciones. |
 | Opciones    | delete-option   | delete | Eliminar una Opción. |
 
-El esquema básico URI para todas las funciones de la API es: 
-http://ulcommerce/api/{version}/{nombre_tienda}/{token}/{metodo}
+El esquema básico URL para todas las funciones de la API es: 
+`http://www.ulcommerce.com/api/{version}/{nombre_tienda}/{token}/{metodo}`
 
-Especificaciones de los parámetros de la uri:
-- **version:** versión de la API que se utilizará para realizar la petición.
-- **nombre_tienda:** nombre de la tienda que se utilizará para el manejo de información.
-- **token:** identificador de seguridad para la tienda, mayor información consultar el apartado de [Autenticación](#id-autenticacion)
-- **metodo:** método que se utilizará para procesar la información de la petición.
+Especificaciones de los parámetros de la URL:
+- **version:** Versión de la API que se utilizará para realizar la petición.
+- **nombre_tienda:** Nombre de la tienda que se utilizará para el manejo de información.
+- **token:** Identificador de seguridad para la tienda, mayor información consultar el apartado de [Autenticación](#id-autenticacion)
+- **metodo:** ;étodo que se utilizará para procesar la información de la petición.
 
 Las peticiones y las respuestas se envían con formato JSON.
 
