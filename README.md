@@ -51,7 +51,7 @@ Especificaciones de los parámetros de la URL:
 - **token:** Identificador de seguridad para la tienda, mayor información consultar el apartado de [Autenticación](#id-autenticacion)
 - **metodo:** Método que se utilizará para procesar la información de la petición.
 
-> **Nota:**" Las peticiones y las respuestas se envían con formato JSON.
+**NOTA:**" Las peticiones y las respuestas se envían con formato JSON.
 
 
 <a name="id-autenticacion"></a>
