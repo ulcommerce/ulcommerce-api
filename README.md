@@ -6,7 +6,7 @@ La API de ulcommerce ha sido desarrollada con el fin de brindar acceso total a n
  * Acceso total a la tienda.
  * API REST.
  * Datos tipo JSON.
- * Métodos HTTP
+ * Métodos HTTP.
  
 *Versión Actual: v0.1*
 
@@ -42,13 +42,14 @@ La siguiente tabla muestra la estructura general de la API:
 | Opciones    | delete-option   | delete | Eliminar una Opción. |
 
 El esquema básico URL para todas las funciones de la API es: 
-`http://www.ulcommerce.com/api/{version}/{nombre_tienda}/{token}/{metodo}`
+http://www.ulcommerce.com/api/{version}/{nombre_tienda}/{token}/{metodo}
 
 Especificaciones de los parámetros de la URL:
+
 - **version:** Versión de la API que se utilizará para realizar la petición.
 - **nombre_tienda:** Nombre de la tienda que se utilizará para el manejo de información.
 - **token:** Identificador de seguridad para la tienda, mayor información consultar el apartado de [Autenticación](#id-autenticacion)
-- **metodo:** ;étodo que se utilizará para procesar la información de la petición.
+- **metodo:** Método que se utilizará para procesar la información de la petición.
 
 Las peticiones y las respuestas se envían con formato JSON.
 
