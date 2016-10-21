@@ -216,25 +216,24 @@ Para realizar la creación de productos se debe tener en cuenta que se pueden cr
 <a name="id-comPro"></a>
 ###  - Combinaciones de Productos
 Es posible realizar la combinación personalizada de productos segun sus medidas, colores, precio, codigo SKU. de esta forma se organiza de una manera más óptima el stock y es posible llevar un mejor control sobre los productos.
+
+<strong>Actualización</strong>
 ```json
-    {
-    "products":[
-		{
-		    "combinaciones": [
-				{
-				    "idCombination": "1",
-				    "stock": "Nombre del Producto",
-				    "weight": "100",
-				    "price": "120",
-				    "salePrice": "50.000",
-				    "skuCombination":"Descripción SKU",
-				    "isMultipleOpts":"1(si)-2(no)",
-				    "product_id":"id-producto",
-				}
-			]
-		}   
-	]
-}
+{
+  "updateCollections":1,
+  "products": [{
+         "sku": "7704021677618",        
+         "combinaciones": [{
+            "sku": "7704021677618",
+            "stock": "12",
+            "weight": "10",
+            "price": "49900",
+            "option_colores": "NEGRO",
+            "option_tallas" : 34,
+            "create_option": "1"
+         }]
+      }]
+}    
 ```
 La url de prueba para la creacion de una combinación es la siguiente:
 
