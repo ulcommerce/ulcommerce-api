@@ -216,8 +216,6 @@ Para realizar la creación de productos se debe tener en cuenta que se pueden cr
 <a name="id-comPro"></a>
 ###  - Combinaciones de Productos
 Es posible realizar la combinación personalizada de productos segun sus medidas, colores, precio, codigo SKU. de esta forma se organiza de una manera más óptima el stock y es posible llevar un mejor control sobre los productos.
-
-<strong>Actualización</strong>
 ```json
 {
   "updateCollections":1,
@@ -235,6 +233,7 @@ Es posible realizar la combinación personalizada de productos segun sus medidas
       }]
 }    
 ```
+Para editar y crear una misma Combinación se hace uso de este formato Json, si el formato se envia y no existe un registro con esos datos se crea una nueva combinación; en caso de haber una coincidencia se realiza la actualización del registro.
 La url de prueba para la creacion de una combinación es la siguiente:
 
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/create-product
