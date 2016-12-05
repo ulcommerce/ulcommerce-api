@@ -382,6 +382,38 @@ La url de prueba para la creacion de una opción es la siguiente:
 http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/create-product
 
 Dentro del objeto que se envía cuando se va a crear una nueva opción debe haber un indice con la palabra reservada <strong>create_option</strong> con un valor 1, de esta manera la Api reconoce que se quiere crear una nueva opción.
+
+<a name="id-opciones"></a>
+## 5. Gestión de Ordenes
+En esta sección de la documentación se especificarán la forma de obtener la lista de ordenes u obtener una orden de acuerdo a el número de orden.
+
+<a name="id-lisCat"></a>
+###  - Listado de Ordenes
+
+Ejemplo para listar ordenes, url de prueba:
+http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/list-order
+
+Para listar todas las ordenes simplemente se realiza la petición a la url anterior, si se desea un registro específico entre fechas se envia el siguiente JSON:
+```json
+	{
+	    "start_date": 	"2016-01-01",
+	    "end_date": 	"2016-12-31"
+	}
+```
+
+<a name="id-lisCat"></a>
+###  - Obtener una Orden
+
+Ejemplo para obtener una orden, url de prueba:
+http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/get-order
+
+Para obtener una orden simplemente se realiza la petición a la url anterior enviando el siguiente JSON:
+```json
+	{
+	    "order_number": 	3001,
+	}
+```
+> **NOTA:** "order_number" representa el número de la orden que desea obtener.
 <a name="id-anexos"></a>
 # III. Anexos
 <a name="id-diccionarioDatos"></a>
