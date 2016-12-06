@@ -414,6 +414,7 @@ Para obtener una orden simplemente se realiza la petición a la url anterior env
 	}
 ```
 > **NOTA:** "order_number" representa el número de la orden que desea obtener.
+
 <a name="id-anexos"></a>
 # III. Anexos
 <a name="id-diccionarioDatos"></a>
