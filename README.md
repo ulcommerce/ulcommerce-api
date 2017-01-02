@@ -40,6 +40,8 @@ La siguiente tabla muestra la estructura general de la API:
 | Combinación | create-product  | post   | Crear uno o varios registros. |
 | Opciones    | create-option   | post   | Crear una o varios opciones. |
 | Opciones    | delete-option   | delete | Eliminar una Opción. |
+| Ordenes    | list-order   | post   | Listar todos los registros y filtrar por fechas. |
+| Ordenes    | get-order   | post | Listar un registro en particular. |
 
 El esquema básico URL para todas las funciones de la API es: 
 http://www.ulcommerce.com/api/{version}/{nombre_tienda}/{token}/{metodo}
