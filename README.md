@@ -264,8 +264,7 @@ http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/update-product
                     "stock": "10",
                     "make_id": "15"
                 }
-            ],
-    "updateCollections": 1
+            ]
     }
 ```
 Al momento de realizar el envío de los datos para la creación del producto se debe tener en cuenta el [diccionario de datos de actualización de productos](#id-datosActPro).
