@@ -220,7 +220,6 @@ Para realizar la creación de productos se debe tener en cuenta que se pueden cr
 Es posible realizar la combinación personalizada de productos segun sus medidas, colores, precio, codigo SKU. de esta forma se organiza de una manera más óptima el stock y es posible llevar un mejor control sobre los productos.
 ```json
 {
-  "updateCollections":1,
   "products": [{
          "sku": "7704021677618",        
          "combinaciones": [{
@@ -262,7 +261,16 @@ http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/update-product
                     "price": "100",
                     "salePrice": "120",
                     "stock": "10",
-                    "make_id": "15"
+                    "make_id": "15",
+		    "combinaciones": [{
+			    "sku": "1",
+			    "stock": "12",
+			    "weight": "10",
+			    "price": "49900",
+			    "option_colores": "NEGRO",
+			    "option_tallas" : 34,
+			    "create_option": "1"
+			 }]
                 }
             ]
     }
