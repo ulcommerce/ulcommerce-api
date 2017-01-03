@@ -253,16 +253,16 @@ http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/update-product
     {
     "products":[
                 {
-                    "id": "5",
-                    "sku": "1",
-                    "name": "Nombre del Producto Actualizado",
-                    "description": "Descripción",
-                    "shortDescription": "Descripción corta del producto",
-                    "price": "100",
-                    "salePrice": "120",
-                    "stock": "10",
-                    "make_id": "15",
-		    "combinaciones": [{
+			"id": "5",
+			"sku": "1",
+			"name": "Nombre del Producto Actualizado",
+			"description": "Descripción",
+			"shortDescription": "Descripción corta del producto",
+			"price": "100",
+			"salePrice": "120",
+			"stock": "10",
+			"make_id": "15",
+			"combinaciones": [{
 			    "sku": "1",
 			    "stock": "12",
 			    "weight": "10",
@@ -277,7 +277,9 @@ http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/update-product
 ```
 Al momento de realizar el envío de los datos para la creación del producto se debe tener en cuenta el [diccionario de datos de actualización de productos](#id-datosActPro).
 
-Para realizar la actualización de productos se debe tener en cuenta que se pueden actualizar uno o varios registros a partir de una sola petición a la API. 
+Para realizar la actualización de productos se debe tener en cuenta que se pueden actualizar uno o varios registros a partir de una sola petición a la API.
+
+Para la actualización de las opciones de los productos se enviará <strong>option_</strong> seguido del nombre de la opción y el valor, además se usará la variable <strong>create_option</strong> y el valor <strong>1 - 0</strong> para determinar si se crearán las opciones en el caso que estas no existieran, el valor por default es 0 (No se crean las opciones de manera automatica en el caso que no existan).
 
 En este método se envían solamente los datos que desea actualizar en el registro (no es necesario enviar todos los datos del registro nuevamente en la petición).
 
